@@ -185,6 +185,26 @@
 	    return false;
 	  });
 
-  });      
+  });
+
+    //Navigation
+
+    $('a.scroll-link').on('click', function(e) {
+        $(".nav-item .active").removeClass("active");
+        $(this).parent().addClass("active");
+        e.preventDefault();
+        scroll_to($(this), $('nav').outerHeight());
+    });
 
 }(jQuery));
+
+function scroll_to(clicked_link, nav_height) {
+    var element_id = clicked_link.attr('href');
+    var scroll_to = 0;
+    if(element_id !== '#home') {
+        scroll_to = $(element_id).offset().top - nav_height;
+    }
+    if($(window).scrollTop() != scroll_to) {
+        $('html, body').stop().animate({scrollTop: scroll_to}, 1000);
+    }
+}

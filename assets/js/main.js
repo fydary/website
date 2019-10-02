@@ -3,6 +3,9 @@
   "use strict";  
 
   $(window).on('load', function() {
+
+      console.log("aaa");
+      $(".static-carousel-image").css("background-image", "url('assets/images/SlideStarEffect_2.gif')");
   	// Material
 	$.material.init();
 
@@ -185,5 +188,3 @@
   });      
 
 }(jQuery));
-
-

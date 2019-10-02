@@ -190,8 +190,6 @@
     //Navigation
 
     $('a.scroll-link').on('click', function(e) {
-        $(".nav-item .active").removeClass("active");
-        $(this).parent().addClass("active");
         e.preventDefault();
         scroll_to($(this), $('nav').outerHeight());
     });

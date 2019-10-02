@@ -4,10 +4,8 @@ function subscribe($email)
 {
     $options = getSubscriptionOptions($email);
 
-    $response = makeRequest("post", "lists/ad612df876/members", $options); // hardcoded LIST ID
 
-    var_dump($response);
-    die;
+    $response = makeRequest("post", "lists/".parse_ini_file('config.ini')['list_id']."/members", $options);
 
     return $response;
 }
@@ -28,7 +26,7 @@ function makeRequest($http_verb, $method, $args = array())
     $httpHeader = array(
         'Accept: application/vnd.api+json',
         'Content-Type: application/vnd.api+json',
-        'Authorization: apikey ' . "ff709bd886c1a4591600f5782fb5af32-us3"
+        'Authorization: apikey ' . parse_ini_file('config.ini')['app_key']
     );
 
     if (isset($args["language"])) {

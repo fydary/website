@@ -8,7 +8,7 @@
 
 .icon-reddit {
     background-color: #ff4500 !important;
-} 
+}
 
 .icon-medium {
     background-color: #00ab6c !important;
@@ -24,5 +24,9 @@
 }
 
 .list-social {
-    text-align: center; 
+    text-align: center;
+}
+
+.image-list img {
+
 }

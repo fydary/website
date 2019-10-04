@@ -185,39 +185,19 @@
             <div class="col-md-6 col-lg-3 col-xl-3 recent-widget">
                 <h3 class="footer-title">Recent Posts</h3>
                 <ul class="image-list">
-                    <li>
-                        <figure class="overlay">
-                            <img class="img-fluid" src="assets/images/art/a1.jpg" alt="">
-                            <figcaption><a href="blog-single.html"><i class="mdi mdi-link-variant from-top icon-xs"></i></a>
-                            </figcaption>
-                        </figure>
-                        <div class="post-content">
-                            <h6 class="post-title"><a href="blog-single.html">Fusce gravida tortor felis</a></h6>
-                            <div class="meta"><span class="date">12 Jan 2019</span></div>
-                        </div>
-                    </li>
-                    <li>
-                        <figure class="overlay">
-                            <img class="img-fluid" src="assets/images/art/a2.jpg" alt="">
-                            <figcaption><a href="blog-single.html"><i class="mdi mdi-link-variant from-top icon-xs"></i></a>
-                            </figcaption>
-                        </figure>
-                        <div class="post-content">
-                            <h6 class="post-title"><a href="blog-single.html">Ornare Nullam Risus Cursus</a></h6>
-                            <div class="meta"><span class="date">12 Jan 2019</span></div>
-                        </div>
-                    </li>
-                    <li>
-                        <figure class="overlay">
-                            <img class="img-fluid" src="assets/images/art/a3.jpg" alt="">
-                            <figcaption><a href="blog-single.html"><i class="mdi mdi-link-variant from-top icon-xs"></i></a>
-                            </figcaption>
-                        </figure>
-                        <div class="post-content">
-                            <h6 class="post-title"><a href="blog-single.html">Euismod Nullam Fusce Dapibus</a></h6>
-                            <div class="meta"><span class="date">12 Jan 2019</span></div>
-                        </div>
-                    </li>
+                    @foreach($feed as $item)
+                        <li>
+                            <figure class="overlay">
+                                <img class="img-fluid" src="{{$item['thumbnail']}}" alt="">
+                                <figcaption><a href="{{$item['link']}}"><i class="mdi mdi-link-variant from-top icon-xs"></i></a>
+                                </figcaption>
+                            </figure>
+                            <div class="post-content">
+                                <h6 class="post-title"><a href="{{$item['link']}}">{{$item['title']}}</a></h6>
+                                <div class="meta"><span class="date">{{$item['date']}}</span></div>
+                            </div>
+                        </li>
+                    @endforeach
                 </ul>
             </div>
             <!--/.Second column-->
@@ -231,8 +211,6 @@
                     <li><i class="mdi mdi-map-marker"></i>Ljubljana, Slovenia</li>
                     <li><i class="mdi mdi-email"></i> <a href="mailto:contact@fydary.io" class="nocolor">contact@fydary.io</a>
                     </li>
-
-
                 </ul>
             </div>
             <!--/.Third column-->

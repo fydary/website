@@ -12,3 +12,4 @@
 */
 
 Route::get('/', 'AppController@home');
+Route::post('/contact', 'ContactController@postContact');

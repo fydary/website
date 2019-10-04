@@ -60,6 +60,8 @@ return [
         'name' => env('MAIL_FROM_NAME', 'Example'),
     ],
 
+    'contact_email_to' => env('CONTACT_EMAIL_TO', 'contact@fydary.io'),
+
     /*
     |--------------------------------------------------------------------------
     | E-Mail Encryption Protocol

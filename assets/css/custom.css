@@ -16,3 +16,24 @@
         padding-left: 10%;
     }
 }
+
+.icon-reddit {
+    background-color: #ff4500 !important;
+}
+
+.icon-medium {
+    background-color: #00ab6c !important;
+}
+
+.icon-telegram {
+    background-color: #0088cc !important;
+}
+
+.list-item-social{
+    width: 30%;
+    margin-bottom: 10px;
+}
+
+.list-social {
+    text-align: center;
+}

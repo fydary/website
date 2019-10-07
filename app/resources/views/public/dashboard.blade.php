@@ -541,24 +541,24 @@
 
     <!-- Contact Us Section -->
     <section class="Material-contact-section section-padding section-dark contact-image1" id="contact">
-        <div class="container">
+        <div class="container contact-section">
             <div class="row">
                 <!-- Section Titile -->
                 <div class="col-md-12 wow animated fadeInLeft" data-wow-delay=".2s">
-                    <h1 class="section-title">@lang('dashboard.contact-section-title')</h1>
+                    <h1 class="section-title white">@lang('dashboard.contact-section-title')</h1>
                 </div>
             </div>
             <div class="row">
                 <!-- Section Titile -->
                 <div class="col-md-6 mt-3 contact-widget-section2 wow animated fadeInLeft" data-wow-delay=".2s">
-                    <p>@lang('dashboard.contact-desc')</p>
+                    <p class="white">@lang('dashboard.contact-desc')</p>
 
                     <div class="find-widget">
-                        <a href="#"><i class="material-icons mdi mdi-map-marker"></i>@lang('dashboard.ljubljana-slovenia')</a>
+                        <a href="#" class="white"><i class="material-icons mdi mdi-map-marker"></i>@lang('dashboard.ljubljana-slovenia')</a>
                     </div>
 
                     <div class="find-widget">
-                        <a href="#"><i class="material-icons mdi mdi-email-open mr-3"></i>contact@fydary.io</a>
+                        <a href="#" class="white"><i class="material-icons mdi mdi-email-open mr-3"></i>contact@fydary.io</a>
                     </div>
 
                 </div>
@@ -568,29 +568,29 @@
                           data-toggle="validator">
                         <!-- Name -->
                         <div class="form-group label-floating">
-                            <label class="control-label" for="name">Name</label>
-                            <input class="form-control" id="name" type="text" name="name" required
+                            <label class="control-label white" for="name">Name</label>
+                            <input class="form-control white" id="name" type="text" name="name" required
                                    data-error="Please enter your name">
                             <div class="help-block with-errors"></div>
                         </div>
                         <!-- email -->
                         <div class="form-group label-floating">
-                            <label class="control-label" for="email">Email</label>
-                            <input class="form-control" id="email" type="email" name="email" required
+                            <label class="control-label white" for="email">Email</label>
+                            <input class="form-control white" id="email" type="email" name="email" required
                                    data-error="Please enter your Email">
                             <div class="help-block with-errors"></div>
                         </div>
                         <!-- Subject -->
                         <div class="form-group label-floating">
-                            <label class="control-label">Subject</label>
-                            <input class="form-control" id="msg_subject" type="text" name="subject" required
+                            <label class="control-label white">Subject</label>
+                            <input class="form-control white" id="msg_subject" type="text" name="subject" required
                                    data-error="Please enter your message subject">
                             <div class="help-block with-errors"></div>
                         </div>
                         <!-- Message -->
                         <div class="form-group label-floating">
-                            <label for="message" class="control-label">Message</label>
-                            <textarea class="form-control" rows="3" id="message" name="message" required
+                            <label for="message" class="control-label white">Message</label>
+                            <textarea class="form-control white" rows="3" id="message" name="message" required
                                       data-error="Write your message"></textarea>
                             <div class="help-block with-errors"></div>
                         </div>

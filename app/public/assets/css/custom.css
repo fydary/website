@@ -27,6 +27,17 @@
     text-align: center;
 }
 
-.image-list img {
-
+.white {
+    color: #fff !important;
 }
+
+.contact-section {
+    margin-top: 2.5%;
+}
+
+/*@media screen and (min-width: 768px) {*/
+
+/*    #contact {*/
+/*        padding-left: 10%;*/
+/*    }*/
+/*}*/

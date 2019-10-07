@@ -60,33 +60,33 @@
                 <ul class="navbar-nav mr-auto w-100 justify-content-end">
                     <li class="nav-item">
                         <a class="nav-link scroll-link" href="#home">
-                            Home
+                            @lang('dashboard.home')
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link scroll-link" href="#about">
-                            About
+                            @lang('dashboard.about')
                         </a>
 
                     </li>
                     <li class="nav-item">
                         <a class="nav-link scroll-link" href="#industry">
-                            Industry
+                            @lang('dashboard.industry')
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link scroll-link" href="#partners">
-                            Partners
+                            @lang('dashboard.partners')
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link scroll-link" href="#team">
-                            Team
+                            @lang('dashboard.team')
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link scroll-link" href="#contact">
-                            Contact Us
+                            @lang('dashboard.contact')
                         </a>
                     </li>
                 </ul>
@@ -100,7 +100,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="form-group has-feedback">
-                                <input type="text" placeholder="Type and search ..." class="form-control">
+                                <input type="text" placeholder="{{__('dashboard.type-and-search')}}" class="form-control">
                                 <div class="close"><i class="mdi mdi-close"></i></div>
                             </div>
                         </div>
@@ -113,32 +113,32 @@
         <ul class="wpb-mobile-menu">
             <li>
                 <a class="nav-link scroll-link" href="#home">
-                    Home
+                    @lang('dashboard.home')
                 </a>
             </li>
             <li>
                 <a class="nav-link scroll-link" href="#about">
-                    About
+                    @lang('dashboard.about')
                 </a>
             </li>
             <li>
                 <a class="nav-link scroll-link" href="#industry">
-                    Industry
+                    @lang('dashboard.industry')
                 </a>
             </li>
             <li>
                 <a class="nav-link scroll-link" href="#partners">
-                    Partners
+                    @lang('dashboard.partners')
                 </a>
             </li>
             <li>
                 <a class="nav-link scroll-link" href="#team">
-                    Team
+                    @lang('dashboard.team')
                 </a>
             </li>
             <li>
                 <a class="nav-link scroll-link" href="#contact">
-                    Contact Us
+                    @lang('dashboard.contact')
                 </a>
             </li>
         </ul>

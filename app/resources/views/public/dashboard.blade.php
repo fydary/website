@@ -14,12 +14,11 @@
                     <div class="carousel-item active">
                         <!-- <img class="d-block w-100" src="assets/images/slider/slider-bg1.jpeg" alt="First slide"> -->
                         <div class="carousel-caption d-md-block">
-                            <h1 class="animated wow fadeInDown hero-heading" data-wow-delay=".4s">Fydary</h1>
-                            <h5 class="animated fadeInUp wow hero-sub-heading" data-wow-delay=".6s">Change
-                                Everything</h5>
+                            <h1 class="animated wow fadeInDown hero-heading" data-wow-delay=".4s">@lang('dashboard.slider-title-1')</h1>
+                            <h5 class="animated fadeInUp wow hero-sub-heading" data-wow-delay=".6s">@lang('dashboard.slider-desc-1')</h5>
                             <a href="javascript:void(0)" class="animated fadeInUp wow btn btn-common"
                                data-wow-delay=".8s"><i
-                                    class="material-icons mdi mdi-lightbulb-outline"></i> Explore
+                                    class="material-icons mdi mdi-lightbulb-outline"></i> @lang('dashboard.slider-button-1')
                                 <div class="ripple-container"></div>
                             </a>
                         </div>
@@ -27,18 +26,14 @@
                     <div class="carousel-item">
                         <!-- <img class="d-block w-100" src="assets/images/slider/slider-bg2.jpeg" alt="Second slide"> -->
                         <div class="carousel-caption d-md-block">
-                            <h1 class="animated wow fadeInLeft hero-heading" data-wow-delay=".7s">Investment for
-                                All</h1>
-                            <h5 class="animated wow fadeInRight hero-sub-heading" data-wow-delay=".9s">Opening ownership
-                                to
-                                high
-                                value assets</h5>
+                            <h1 class="animated wow fadeInLeft hero-heading" data-wow-delay=".7s">@lang('dashboard.slider-title-2')</h1>
+                            <h5 class="animated wow fadeInRight hero-sub-heading" data-wow-delay=".9s">@lang('dashboard.slider-desc-2')</h5>
                             <a href="javascript:void(0)" class="animated fadeInUp wow btn btn-common"
                                data-wow-delay=".6s"><i
-                                    class="material-icons mdi mdi-cart-outline"></i>Whitepaper</a>
+                                    class="material-icons mdi mdi-cart-outline"></i>@lang('dashboard.slider-button-2-1')</a>
                             <a href="javascript:void(0)" class="animated fadeInUp wow btn btn-border"
                                data-wow-delay=".8s"><i
-                                    class="material-icons mdi mdi-lightbulb-outline"></i> Learn More
+                                    class="material-icons mdi mdi-lightbulb-outline"></i> @lang('dashboard.slider-button-2-2')
                                 <div class="ripple-container"></div>
                             </a>
                         </div>
@@ -46,14 +41,11 @@
                     <div class="carousel-item">
                         <!-- <img class="d-block w-100" src="assets/images/slider/slider-bg1.jpeg" alt="Third slide"> -->
                         <div class="carousel-caption d-md-block">
-                            <h1 class="animated wow fadeInDown hero-heading" data-wow-delay=".6s">Legal Meets
-                                Fintech</h1>
-                            <h5 class="animated fadeInUp wow hero-sub-heading" data-wow-delay=".8s">Creating legal
-                                compliance
-                                within the EU</h5>
+                            <h1 class="animated wow fadeInDown hero-heading" data-wow-delay=".6s">@lang('dashboard.slider-title-3')</h1>
+                            <h5 class="animated fadeInUp wow hero-sub-heading" data-wow-delay=".8s">@lang('dashboard.slider-desc-3')</h5>
                             <a href="javascript:void(0)" class="animated fadeInUp wow btn btn-common"
                                data-wow-delay=".8s"><i
-                                    class="material-icons mdi mdi-arrow-collapse-down"></i>Whitepaper</a>
+                                    class="material-icons mdi mdi-arrow-collapse-down"></i>@lang('dashboard.slider-button-3')</a>
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#main-slide" role="button" data-slide="prev">
@@ -80,32 +72,32 @@
                 <div class="col-md-6 col-lg-3 col-xl-3 wow animated fadeInUp" data-wow-delay=".2s">
                     <div class="about-single">
                         <i class="icons_new"><img src="assets/images/icons/removingbarriericon.png" alt=""></i>
-                        <h2 class="subtitle">Removing the Barrier of Entry</h2>
-                        <p>Allowing everyone to invest in high value assets</p>
+                        <h2 class="subtitle">@lang('dashboard.about-title-1')</h2>
+                        <p>@lang('dashboard.about-desc-1')</p>
                     </div>
                 </div>
                 <!-- Single About -->
                 <div class="col-md-6 col-lg-3 col-xl-3 wow animated fadeInUp" data-wow-delay=".3s">
                     <div class="about-single">
                         <i class="icons_new"><img src="assets/images/icons/financemeetslegalicon.png" alt=""></i>
-                        <h2 class="subtitle">Finance Meets Legal</h2>
-                        <p>Providing strong legal backing to secure financial investment</p>
+                        <h2 class="subtitle">@lang('dashboard.about-title-2')</h2>
+                        <p>@lang('dashboard.about-desc-2')</p>
                     </div>
                 </div>
                 <!-- Single About -->
                 <div class="col-md-6 col-lg-3 col-xl-3 wow animated fadeInUp" data-wow-delay=".4s">
                     <div class="about-single">
                         <i class="icons_new"><img src="assets/images/icons/blockchaintechnologyicon.png" alt=""></i>
-                        <h2 class="subtitle">Blockchain Technology</h2>
-                        <p>Utilizing smart contracts to secure trades and assets</p>
+                        <h2 class="subtitle">@lang('dashboard.about-title-3')</h2>
+                        <p>@lang('dashboard.about-desc-3')</p>
                     </div>
                 </div>
                 <!-- Single About -->
                 <div class="col-md-6 col-lg-3 col-xl-3 wow animated fadeInUp" data-wow-delay=".5s">
                     <div class="about-single">
                         <i class="icons_new"><img src="assets/images/icons/fulluserexperienceicon.png" alt=""></i>
-                        <h2 class="subtitle">Full User Experience</h2>
-                        <p>Finance doesn't have to be boring, but in fact can be enjoyable and engaging</p>
+                        <h2 class="subtitle">@lang('dashboard.about-title-4')</h2>
+                        <p>@lang('dashboard.about-desc-4')</p>
                     </div>
                 </div>
             </div>
@@ -124,76 +116,40 @@
                             <li class="nav-item">
                                 <a class="nav-link active" data-toggle="tab" href="#finance" role="tab"><i
                                         class="icons_new"><img src="assets/images/icons/financeicon.png" alt=""></i>
-                                    <br>Finance</a>
+                                    <br>@lang('dashboard.tab-title-1')</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" data-toggle="tab" href="#technology" role="tab"><i
                                         class="icons_new"><img src="assets/images/icons/technologyicon.png" alt=""></i>
-                                    <br>Technology</a>
+                                    <br>@lang('dashboard.tab-title-2')</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" data-toggle="tab" href="#legal" role="tab"><i class="icons_new"><img
-                                            src="assets/images/icons/legalicon.png" alt=""></i> <br>Legal</a>
+                                            src="assets/images/icons/legalicon.png" alt=""></i> <br>@lang('dashboard.tab-title-3')</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" data-toggle="tab" href="#businessdevelopment" role="tab"><i
                                         class="icons_new"><img src="assets/images/icons/businessdevelopmenticon.png"
                                                                alt=""></i>
-                                    <br>Business</a>
+                                    <br>@lang('dashboard.tab-title-4')</a>
                             </li>
                         </ul>
                         <!-- Tab panes -->
                         <div class="tab-content">
                             <div class="tab-pane fade show active" id="finance" role="tabpanel">
-                                <p>The financial industry has always been controlled by the wealthiest of society in
-                                    that
-                                    many investments are too valuable for even the upper middle class to reasonably
-                                    invest.
-                                    Investments that require hundreds of millions of dollars can only be accessed by
-                                    billionaires, and even those with high net worth are unable to access these
-                                    opportunities. We are removing these barriers by allowing for fractional ownership
-                                    of
-                                    assets through crowdfunding methods.</p>
+                                <p>@lang('dashboard.tab-desc-1')</p>
 
                             </div>
                             <div class="tab-pane fade" id="technology" role="tabpanel">
-                                <p>Blockchain technology allows us to be able to manage fractional ownership
-                                    opportunities
-                                    in several ways. First, open ledgers allow for all transactions to be open and
-                                    honest,
-                                    allowing for all investors to be aware of exactly what they are receiving and that
-                                    no
-                                    money goes unaccounted for. Second, smart contracts allow for the management and
-                                    execution of the will of all owners in a quick and efficient manner, speeding up the
-                                    process of a traditional shareholders meeting. Third, blockchain governance allows
-                                    for
-                                    users to make decisions regarding their assets in a fair and open environment,
-                                    regardless of where they are in the world.</p>
+                                <p>@lang('dashboard.tab-desc-2')</p>
 
                             </div>
                             <div class="tab-pane fade" id="legal" role="tabpanel">
-                                <p>Many financial and technology institutions begin their projects with the best
-                                    intentions
-                                    of mind without looking into future potential legal ramifications for their projects
-                                    or
-                                    how current laws can bottleneck their development. We take the law seriously and it
-                                    is
-                                    even a necessary element to our business. Progress in current law is a key element
-                                    to
-                                    adapting new technology in society, and we actively find the best ways to be
-                                    compliant
-                                    as well as fill in the gaps where no law exists.</p>
+                                <p>@lang('dashboard.tab-desc-3')</p>
 
                             </div>
                             <div class="tab-pane fade" id="businessdevelopment" role="tabpanel">
-                                <p>Many technology companies focus only on their tech and ignore the business aspect of
-                                    things. Fydary is ran as a proper business, with user and partner acquisition a top
-                                    priority. Without having a strong symbiotic relationship with our users and
-                                    partners,
-                                    building our technology will be for nothing. Our growth plan is focused on bringing
-                                    highly qualified users and partners to our platform, with the end goal of having
-                                    mass
-                                    adoption of Fydary.</p>
+                                <p>@lang('dashboard.tab-desc-4')</p>
 
                             </div>
                         </div>
@@ -211,7 +167,7 @@
             <div class="row">
                 <!-- Section Titile -->
                 <div class="col-md-12 wow animated fadeInLeft" data-wow-delay=".2s">
-                    <h1 class="section-title">Our Industries</h1>
+                    <h1 class="section-title">@lang('dashboard.industries-section-title')</h1>
                 </div>
             </div>
             <!-- Services Widget Section -->
@@ -224,8 +180,8 @@
                             <i class="icons_new"><img src="assets/images/icons/hedgefundsicon.png" alt=""></i>
                         </div>
                         <div class="media-body">
-                            <h2 class="subtitle"><a href="#">Hedge Funds</a></h2>
-                            <p>Allowing hedge funds to accept those that may not otherwise qualify as investors.</p>
+                            <h2 class="subtitle"><a href="#">@lang('dashboard.industry-title-1')</a></h2>
+                            <p>@lang('dashboard.industry-desc-1')</p>
                         </div>
                     </div>
                 </div>
@@ -237,8 +193,8 @@
                             <i class="icons_new"><img src="assets/images/icons/realestateicon.png" alt=""></i>
                         </div>
                         <div class="media-body">
-                            <h2 class="subtitle"><a href="#">Real Estate</a></h2>
-                            <p>Opening opportunities for users to invest in large real estate projects.</p>
+                            <h2 class="subtitle"><a href="#">@lang('dashboard.industry-title-2')</a></h2>
+                            <p>@lang('dashboard.industry-desc-2')</p>
                         </div>
                     </div>
                 </div>
@@ -250,9 +206,8 @@
                             <i class="icons_new"><img src="assets/images/icons/energyicon.png" alt=""></i>
                         </div>
                         <div class="media-body">
-                            <h2 class="subtitle"><a href="#">Energy</a></h2>
-                            <p>Building renewable energy farms is no small task; Fydary opens the opportunity to
-                                everyone.</p>
+                            <h2 class="subtitle"><a href="#">@lang('dashboard.industry-title-3')</a></h2>
+                            <p>@lang('dashboard.industry-desc-3')</p>
                         </div>
                     </div>
                 </div>
@@ -264,8 +219,8 @@
                             <i class="icons_new"><img src="assets/images/icons/transportlogisticsicon.png" alt=""></i>
                         </div>
                         <div class="media-body">
-                            <h2 class="subtitle"><a href="#">Transportation and Logistics</a></h2>
-                            <p>The world runs on our ability to move people and items.</p>
+                            <h2 class="subtitle"><a href="#">@lang('dashboard.industry-title-4')</a></h2>
+                            <p>@lang('dashboard.industry-desc-4')</p>
                         </div>
                     </div>
                 </div>
@@ -277,10 +232,8 @@
                             <i class="icons_new"><img src="assets/images/icons/farmingicon.png" alt=""></i>
                         </div>
                         <div class="media-body">
-                            <h2 class="subtitle"><a href="#">Farming</a></h2>
-                            <p>The world needs food, and we are looking towards the most advanced farming methods to
-                                bring
-                                progress to the industry.</p>
+                            <h2 class="subtitle"><a href="#">@lang('dashboard.industry-title-5')</a></h2>
+                            <p>@lang('dashboard.industry-desc-5')</p>
                         </div>
                     </div>
                 </div>
@@ -292,10 +245,8 @@
                             <i class="icons_new"><img src="assets/images/icons/charityicon.png" alt=""></i>
                         </div>
                         <div class="media-body">
-                            <h2 class="subtitle"><a href="#">Charity</a></h2>
-                            <p>Want to help out with some of your investment? We have charitable options for you to do
-                                your
-                                part.</p>
+                            <h2 class="subtitle"><a href="#">@lang('dashboard.industry-title-6')</a></h2>
+                            <p>@lang('dashboard.industry-desc-6')</p>
                         </div>
                     </div>
                 </div>
@@ -315,7 +266,7 @@
                     <div class="counter">
                         <div class="icons_new"><img src="assets/images/icons/partnersicon.png" alt=""></div>
                         <div class="timer">5</div>
-                        <p>Partners</p>
+                        <p>@lang('dashboard.counter-1')</p>
                     </div>
                 </div>
                 <!-- Single Counter -->
@@ -324,7 +275,7 @@
                     <div class="counter">
                         <div class="icons_new"><img src="assets/images/icons/projectsicon.png" alt=""></div>
                         <div class="timer">27</div>
-                        <p>Projects</p>
+                        <p>@lang('dashboard.counter-2')</p>
                     </div>
                 </div>
                 <!-- Single Counter -->
@@ -333,7 +284,7 @@
                     <div class="counter">
                         <div class="icons_new"><img src="assets/images/icons/teammembersicon.png" alt=""></div>
                         <div class="timer">35</div>
-                        <p>Team Members</p>
+                        <p>@lang('dashboard.counter-3')</p>
                     </div>
                 </div>
                 <!-- Single Counter -->
@@ -342,7 +293,7 @@
                     <div class="counter">
                         <div class="icons_new"><img src="assets/images/icons/usersicon.png" alt=""></div>
                         <div class="timer">5478</div>
-                        <p>Users</p>
+                        <p>@lang('dashboard.counter-4')</p>
                     </div>
                 </div>
             </div>
@@ -356,7 +307,7 @@
             <div class="row">
                 <!-- Section Titile -->
                 <div class="col-md-12 wow animated fadeInLeft" data-wow-delay=".2s">
-                    <h1 class="section-title">Meet The Team</h1>
+                    <h1 class="section-title">@lang('dashboard.team-section-title')</h1>
                 </div>
             </div>
             <div class="row">
@@ -594,19 +545,16 @@
             <div class="row">
                 <!-- Section Titile -->
                 <div class="col-md-12 wow animated fadeInLeft" data-wow-delay=".2s">
-                    <h1 class="section-title">Love to Hear From You</h1>
+                    <h1 class="section-title">@lang('dashboard.contact-section-title')</h1>
                 </div>
             </div>
             <div class="row">
                 <!-- Section Titile -->
                 <div class="col-md-6 mt-3 contact-widget-section2 wow animated fadeInLeft" data-wow-delay=".2s">
-                    <p>If you are looking to partner with us, want to learn more about our IEO, or any general questions
-                        you
-                        may have, feel free to reach out to us and we will be happy to give you any information you
-                        require.</p>
+                    <p>@lang('dashboard.contact-desc')</p>
 
                     <div class="find-widget">
-                        <a href="#"><i class="material-icons mdi mdi-map-marker"></i>Ljubljana, Slovenia</a>
+                        <a href="#"><i class="material-icons mdi mdi-map-marker"></i>@lang('dashboard.ljubljana-slovenia')</a>
                     </div>
 
                     <div class="find-widget">

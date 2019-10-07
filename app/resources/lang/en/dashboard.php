@@ -54,5 +54,8 @@ return [
     'counter-3' => 'Team Members',
     'counter-4' => 'Users',
     'team-section-title' => 'Meet The Team',
-    'contact-section-title' => 'Love To Hear From You'
+    'contact-section-title' => 'Love To Hear From You',
+    'contact-desc' => 'If you are looking to partner with us, want to learn more about our IEO, or any general questions you may have, feel free to reach out to us and we will be happy to give you any information you require',
+    'ljubljana-slovenia' => 'Ljubljana, Slovenia',
+
 ];

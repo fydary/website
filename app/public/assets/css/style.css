@@ -201,9 +201,18 @@ a a:focus {
 }
 
 .contact-image1 {
-    background: url(../images/contact-form.gif);
+    background: url(../images/contact-form.gif) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     z-index: -2;
-    height: 100%;
+
+}
+
+@media screen and (min-width: 768px) {
+    .contact-image1 {
+        background-size: 100% 100%;
+    }
 }
 
 .client-image1 {

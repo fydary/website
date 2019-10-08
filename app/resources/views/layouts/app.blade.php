@@ -156,8 +156,8 @@
         <div class="row">
             <!--First column-->
             <div class="col-md-6 col-lg-3 col-xl-3 footer-contact-widget">
-                <h3 class="footer-title">About Us</h3>
-                <p>Find us on social</p>
+                <h3 class="footer-title">@lang('dashboard.footer-about')</h3>
+                <p>@lang('dashboard.footer-social')</p>
                 <ul class="list-social">
                     <li class="list-item-social">
                         <a href="https://twitter.com/fydaryio"><i class="mdi mdi-twitter"></i></a>
@@ -183,7 +183,7 @@
 
             <!--Second column-->
             <div class="col-md-6 col-lg-3 col-xl-3 recent-widget">
-                <h3 class="footer-title">Recent Posts</h3>
+                <h3 class="footer-title">@lang('dashboard.recent-posts')</h3>
                 <ul class="image-list">
                     @foreach($feed as $item)
                         <li>
@@ -204,11 +204,11 @@
 
             <!--Third column-->
             <div class="col-md-6 col-lg-3 col-xl-3 link-widget">
-                <h3 class="footer-title">Subscribe</h3>
-                <p>Join the financial revolution today and change everything.</p>
+                <h3 class="footer-title">@lang('dashboard.subscribe')</h3>
+                <p>@lang('dashboard.subscribe-desc')</p>
                 <div class="mt-3"></div>
                 <ul class="icon-list">
-                    <li><i class="mdi mdi-map-marker"></i>Ljubljana, Slovenia</li>
+                    <li><i class="mdi mdi-map-marker"></i>@lang('dashboard.ljubljana-slovenija')</li>
                     <li><i class="mdi mdi-email"></i> <a href="mailto:contact@fydary.io" class="nocolor">contact@fydary.io</a>
                     </li>
                 </ul>
@@ -217,15 +217,15 @@
 
             <!--Fourth column-->
             <div class="col-md-6 col-lg-3 col-xl-3 footer-contact">
-                <h3 class="footer-title">Subscribe</h3>
+                <h3 class="footer-title">@lang('dashboard.subscribe')</h3>
                 <div class="widget">
                     <div class="newsletter-wrapper">
                         <form method="post" id="subscribe-form" name="subscribe-form" class="validate">
                             <div class="form-group">
                                 <input type="email" value="" name="EMAIL" class="email form-control"
-                                       placeholder="Email Address" required="">
+                                       placeholder="{{__('dashboard.email')}}" required="">
                                 <button type="submit" name="subscribe" id="subscribe" class="btn btn-common pull-right">
-                                    Join
+                                    @lang('dashboard.join')
                                 </button>
                                 <div class="clearfix"></div>
                             </div>
@@ -234,12 +234,12 @@
                 </div>
                 <!-- /.widget -->
                 <div class="widget">
-                    <h5 class="widget-title">Useful Links</h5>
+                    <h5 class="widget-title">@lang('dashboard.useful-links')</h5>
                     <ul class="unordered-list">
-                        <li><a href="#" class="nocolor">Terms of Use</a></li>
-                        <li><a href="#" class="nocolor">Privacy Policy</a></li>
-                        <li><a href="#" class="nocolor">Company Profile</a></li>
-                        <li><a href="#" class="nocolor">Why Choose Us</a></li>
+                        <li><a href="#" class="nocolor">@lang('dashboard.terms-of-use')</a></li>
+                        <li><a href="#" class="nocolor">@lang('dashboard.privacy-policy')</a></li>
+                        <li><a href="#" class="nocolor">@lang('dashboard.company-profile')</a></li>
+                        <li><a href="#" class="nocolor">@lang('dashboard.why-choose-us')</a></li>
                     </ul>
                 </div>
             </div>
@@ -254,7 +254,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <p>&copy; 2019 Fydary Incorporated, All right reserved.</p>
+                    <p>&copy; @lang('dashboard.footer-copyright')</p>
                 </div>
             </div>
         </div>

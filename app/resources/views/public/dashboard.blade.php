@@ -570,34 +570,34 @@
                         <div class="form-group label-floating">
                             <label class="control-label white" for="name">Name</label>
                             <input class="form-control white" id="name" type="text" name="name" required
-                                   data-error="Please enter your name">
+                                   data-error="{{__('dashboard.name-validation-message')}}">
                             <div class="help-block with-errors"></div>
                         </div>
                         <!-- email -->
                         <div class="form-group label-floating">
                             <label class="control-label white" for="email">Email</label>
                             <input class="form-control white" id="email" type="email" name="email" required
-                                   data-error="Please enter your Email">
+                                   data-error="{{__('dashboard.email-validation-message')}}">
                             <div class="help-block with-errors"></div>
                         </div>
                         <!-- Subject -->
                         <div class="form-group label-floating">
                             <label class="control-label white">Subject</label>
                             <input class="form-control white" id="msg_subject" type="text" name="subject" required
-                                   data-error="Please enter your message subject">
+                                   data-error="{{__('dashboard.subject-validation-message')}}">
                             <div class="help-block with-errors"></div>
                         </div>
                         <!-- Message -->
                         <div class="form-group label-floating">
                             <label for="message" class="control-label white">Message</label>
                             <textarea class="form-control white" rows="3" id="message" name="message" required
-                                      data-error="Write your message"></textarea>
+                                      data-error="{{__('dashboard.message-validation-message')}}"></textarea>
                             <div class="help-block with-errors"></div>
                         </div>
                         <!-- Form Submit -->
                         <div class="form-submit mt-5">
                             <button class="btn btn-common" type="submit" id="form-submit"><i
-                                    class="material-icons mdi mdi-message-outline"></i> Send Message
+                                    class="material-icons mdi mdi-message-outline"></i> @lang('dashboard.send-message')
                             </button>
                             <!--Big blue-->
                             <div class="preloader-wrapper active">

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png"/>
     <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png"/>
@@ -30,8 +30,8 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="assets/css/responsive.css">
-
-
+    <!-- Flag icons-->
+    <link rel="stylesheet" href="flag-icon-css/css/flag-icon.min.css">
     <!-- Color CSS Styles  -->
     <link rel="stylesheet" type="text/css" href="assets/css/colors/indigo.css" media="screen"/>
 
@@ -40,112 +40,7 @@
 
 </head>
 <body>
-
-<!-- Header Start -->
-<header id="header">
-    <nav class="navbar navbar-expand-lg fixed-top nav-bg">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar"
-                        aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="mdi mdi-menu"></span>
-                    <span class="mdi mdi-menu"></span>
-                    <span class="mdi mdi-menu"></span>
-                </button>
-                <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt=""></a>
-            </div>
-            <div class="collapse navbar-collapse" id="main-navbar">
-                <ul class="navbar-nav mr-auto w-100 justify-content-end">
-                    <li class="nav-item">
-                        <a class="nav-link scroll-link" href="#home">
-                            @lang('dashboard.home')
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link scroll-link" href="#about">
-                            @lang('dashboard.about')
-                        </a>
-
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link scroll-link" href="#industry">
-                            @lang('dashboard.industry')
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link scroll-link" href="#partners">
-                            @lang('dashboard.partners')
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link scroll-link" href="#team">
-                            @lang('dashboard.team')
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link scroll-link" href="#contact">
-                            @lang('dashboard.contact')
-                        </a>
-                    </li>
-                </ul>
-                <!-- Search Box Start -->
-                <div class="search-icon">
-              <span class="open-search">
-                <i class="mdi mdi-magnify btn btn-common"></i>
-              </span>
-                </div>
-                <form role="search" class="navbar-form">
-                    <div class="container">
-                        <div class="row">
-                            <div class="form-group has-feedback">
-                                <input type="text" placeholder="{{__('dashboard.type-and-search')}}" class="form-control">
-                                <div class="close"><i class="mdi mdi-close"></i></div>
-                            </div>
-                        </div>
-                    </div>
-                </form>
-                <!-- Search Box End -->
-            </div>
-        </div>
-        <!-- Mobile Menu Start -->
-        <ul class="wpb-mobile-menu">
-            <li>
-                <a class="nav-link scroll-link" href="#home">
-                    @lang('dashboard.home')
-                </a>
-            </li>
-            <li>
-                <a class="nav-link scroll-link" href="#about">
-                    @lang('dashboard.about')
-                </a>
-            </li>
-            <li>
-                <a class="nav-link scroll-link" href="#industry">
-                    @lang('dashboard.industry')
-                </a>
-            </li>
-            <li>
-                <a class="nav-link scroll-link" href="#partners">
-                    @lang('dashboard.partners')
-                </a>
-            </li>
-            <li>
-                <a class="nav-link scroll-link" href="#team">
-                    @lang('dashboard.team')
-                </a>
-            </li>
-            <li>
-                <a class="nav-link scroll-link" href="#contact">
-                    @lang('dashboard.contact')
-                </a>
-            </li>
-        </ul>
-        <!-- Mobile Menu End -->
-    </nav>
-</header>
-<!-- Header End -->
+@include('partials.header')
 <div id="app">
     @yield('content')
 </div>
@@ -189,7 +84,8 @@
                         <li>
                             <figure class="overlay">
                                 <img class="img-fluid" src="{{$item['thumbnail']}}" alt="">
-                                <figcaption><a href="{{$item['link']}}"><i class="mdi mdi-link-variant from-top icon-xs"></i></a>
+                                <figcaption><a href="{{$item['link']}}"><i
+                                            class="mdi mdi-link-variant from-top icon-xs"></i></a>
                                 </figcaption>
                             </figure>
                             <div class="post-content">
@@ -297,7 +193,9 @@
 <script src="assets/js/jquery.vide.js"></script>
 <script src="assets/js/jquery.magnific-popup.min.js"></script>
 <script src="assets/js/jquery.slicknav.js"></script>
+
 <script src="assets/js/main.js"></script>
 
+<script src="/js/app.js"></script>
 </body>
 </html>

@@ -13,3 +13,4 @@
 
 Route::get('/', 'AppController@home');
 Route::post('/contact', 'ContactController@postContact');
+Route::get('/changeLanguage', 'AppController@changeLanguage');

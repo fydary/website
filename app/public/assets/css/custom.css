@@ -35,9 +35,32 @@
     margin-top: 2.5%;
 }
 
-/*@media screen and (min-width: 768px) {*/
+.custom-control-input:checked~.custom-control-label::before {
+    background-color: #9E2064;
+    border-color: #9E2064;
+}
 
-/*    #contact {*/
-/*        padding-left: 10%;*/
-/*    }*/
-/*}*/
+.checkbox label, .radio label, label {
+    color: #9E2064;
+}
+
+.custom-control-label::before {
+    color: #5166d8;
+    border: #5166d8 solid 1px;
+}
+
+.header-actions {
+    margin-left: 10px;
+    width: 33%;
+    text-align: right;
+}
+
+.custom-control {
+    display: inline;
+    font-size: 14px !important;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.custom-switch .custom-control-label::after {
+    background-color: #5166d8;
+}

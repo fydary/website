@@ -13,3 +13,4 @@ yarn-error.log
 package-lock.json
 public/mix-manifest.json
 composer.lock
+public/flag-icon-css

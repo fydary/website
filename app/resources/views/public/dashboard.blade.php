@@ -14,8 +14,10 @@
                     <div class="carousel-item active">
                         <!-- <img class="d-block w-100" src="assets/images/slider/slider-bg1.jpeg" alt="First slide"> -->
                         <div class="carousel-caption d-md-block">
-                            <h1 class="animated wow fadeInDown hero-heading" data-wow-delay=".4s">@lang('dashboard.slider-title-1')</h1>
-                            <h5 class="animated fadeInUp wow hero-sub-heading" data-wow-delay=".6s">@lang('dashboard.slider-desc-1')</h5>
+                            <h1 class="animated wow fadeInDown hero-heading"
+                                data-wow-delay=".4s">@lang('dashboard.slider-title-1')</h1>
+                            <h5 class="animated fadeInUp wow hero-sub-heading"
+                                data-wow-delay=".6s">@lang('dashboard.slider-desc-1')</h5>
                             <a href="javascript:void(0)" class="animated fadeInUp wow btn btn-common"
                                data-wow-delay=".8s"><i
                                     class="material-icons mdi mdi-lightbulb-outline"></i> @lang('dashboard.slider-button-1')
@@ -26,11 +28,14 @@
                     <div class="carousel-item">
                         <!-- <img class="d-block w-100" src="assets/images/slider/slider-bg2.jpeg" alt="Second slide"> -->
                         <div class="carousel-caption d-md-block">
-                            <h1 class="animated wow fadeInLeft hero-heading" data-wow-delay=".7s">@lang('dashboard.slider-title-2')</h1>
-                            <h5 class="animated wow fadeInRight hero-sub-heading" data-wow-delay=".9s">@lang('dashboard.slider-desc-2')</h5>
+                            <h1 class="animated wow fadeInLeft hero-heading"
+                                data-wow-delay=".7s">@lang('dashboard.slider-title-2')</h1>
+                            <h5 class="animated wow fadeInRight hero-sub-heading"
+                                data-wow-delay=".9s">@lang('dashboard.slider-desc-2')</h5>
                             <a href="javascript:void(0)" class="animated fadeInUp wow btn btn-common"
                                data-wow-delay=".6s"><i
-                                    class="material-icons mdi mdi-cart-outline"></i>@lang('dashboard.slider-button-2-1')</a>
+                                    class="material-icons mdi mdi-cart-outline"></i>@lang('dashboard.slider-button-2-1')
+                            </a>
                             <a href="javascript:void(0)" class="animated fadeInUp wow btn btn-border"
                                data-wow-delay=".8s"><i
                                     class="material-icons mdi mdi-lightbulb-outline"></i> @lang('dashboard.slider-button-2-2')
@@ -41,11 +46,14 @@
                     <div class="carousel-item">
                         <!-- <img class="d-block w-100" src="assets/images/slider/slider-bg1.jpeg" alt="Third slide"> -->
                         <div class="carousel-caption d-md-block">
-                            <h1 class="animated wow fadeInDown hero-heading" data-wow-delay=".6s">@lang('dashboard.slider-title-3')</h1>
-                            <h5 class="animated fadeInUp wow hero-sub-heading" data-wow-delay=".8s">@lang('dashboard.slider-desc-3')</h5>
+                            <h1 class="animated wow fadeInDown hero-heading"
+                                data-wow-delay=".6s">@lang('dashboard.slider-title-3')</h1>
+                            <h5 class="animated fadeInUp wow hero-sub-heading"
+                                data-wow-delay=".8s">@lang('dashboard.slider-desc-3')</h5>
                             <a href="javascript:void(0)" class="animated fadeInUp wow btn btn-common"
                                data-wow-delay=".8s"><i
-                                    class="material-icons mdi mdi-arrow-collapse-down"></i>@lang('dashboard.slider-button-3')</a>
+                                    class="material-icons mdi mdi-arrow-collapse-down"></i>@lang('dashboard.slider-button-3')
+                            </a>
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#main-slide" role="button" data-slide="prev">
@@ -109,7 +117,7 @@
     <section class="welcome-section section-padding section-dark">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 col-lg-8 col-xs-12">
+                <div class="col-md-12 col-lg-7 col-xs-12">
                     <div class="Material-tab">
                         <!-- Nav tabs -->
                         <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
@@ -125,7 +133,8 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" data-toggle="tab" href="#legal" role="tab"><i class="icons_new"><img
-                                            src="assets/images/icons/legalicon.png" alt=""></i> <br>@lang('dashboard.tab-title-3')</a>
+                                            src="assets/images/icons/legalicon.png" alt=""></i>
+                                    <br>@lang('dashboard.tab-title-3')</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" data-toggle="tab" href="#businessdevelopment" role="tab"><i
@@ -155,7 +164,17 @@
                         </div>
                     </div>
                 </div>
-
+                <div class="col-md-12 col-lg-5 col-xs-12">
+                    <div class="whitepaper row">
+                        <div class="col-sm-12">
+                            <form action="post" id="whitepaper-form">
+                                <input type="email" name="email" placeholder="E-Mail address" class="form-control">
+{{--                                <input type="submit" class="btn btn-md btn-primary" value="Download">--}}
+                                <a href="javascript:void(0)" class="animated4 btn btn-common btn-lg"><i class="material-icons mdi mdi-lightbulb-outline"></i> Download<div class="ripple-container"></div></a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -554,7 +573,8 @@
                     <p class="white">@lang('dashboard.contact-desc')</p>
 
                     <div class="find-widget">
-                        <a href="#" class="white"><i class="material-icons mdi mdi-map-marker"></i>@lang('dashboard.ljubljana-slovenia')</a>
+                        <a href="#" class="white"><i
+                                class="material-icons mdi mdi-map-marker"></i>@lang('dashboard.ljubljana-slovenia')</a>
                     </div>
 
                     <div class="find-widget">

@@ -193,6 +193,8 @@
 <script src="assets/js/jquery.vide.js"></script>
 <script src="assets/js/jquery.magnific-popup.min.js"></script>
 <script src="assets/js/jquery.slicknav.js"></script>
+<script src="assets/js/jquery.slicknav.js"></script>
+
 
 <script src="assets/js/main.js"></script>
 

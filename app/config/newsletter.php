@@ -41,6 +41,10 @@ return [
              */
             'id' => env('MAILCHIMP_LIST_ID'),
         ],
+
+        'pre-sign-ups' => [
+            'id' => env('MAILCHIMP_PRE_SIGNUPS_LIST_ID'),
+        ],
     ],
 
     /*

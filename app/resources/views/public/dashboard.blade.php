@@ -167,10 +167,16 @@
                 <div class="col-md-12 col-lg-5 col-xs-12">
                     <div class="whitepaper row">
                         <div class="col-sm-12">
-                            <form action="post" id="whitepaper-form">
-                                <input type="email" name="email" placeholder="E-Mail address" class="form-control">
-{{--                                <input type="submit" class="btn btn-md btn-primary" value="Download">--}}
-                                <a href="javascript:void(0)" class="animated4 btn btn-common btn-lg"><i class="material-icons mdi mdi-lightbulb-outline"></i> Download<div class="ripple-container"></div></a>
+                            <h4 class="white whitepaper-title">
+                                GET EXCLUSIVE ACCESS TO FYDARY WHITEPAPER <sup>BETA</sup>
+                            </h4>
+                            <form action="/downloadWhitepaper" id="whitepaper" method="get">
+                                <input type="email" name="email" id="whitepaper-email" placeholder="Email address" class="form-control white">
+                                <small id="email-validation-message" class="white"></small>
+                                    @csrf
+                                <br>
+                                <a id="submit-whitepaper" class="animated4 btn btn-common btn-lg" ><i class="material-icons mdi mdi-arrow-collapse-down"></i>
+                                    Download</a>
                             </form>
                         </div>
                     </div>

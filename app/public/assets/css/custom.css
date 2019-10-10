@@ -77,4 +77,9 @@
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    margin-left: 0px;
+}
+
+.whitepaper-title {
+    margin: 30px 10px;
 }

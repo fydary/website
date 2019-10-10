@@ -183,7 +183,6 @@
             }, 600);
             return false;
         });
-
     });
 
     //Navigation
@@ -204,4 +203,21 @@ function scroll_to(clicked_link, nav_height) {
     if ($(window).scrollTop() != scroll_to) {
         $('html, body').stop().animate({scrollTop: scroll_to}, 1000);
     }
+}
+
+$(document).ready(function () {
+    $("#submit-whitepaper").on("click", function (e) {
+        let email = $("#whitepaper-email").val();
+        if (validateEmail(email)) {
+            $("#email-validation-message").html("");
+            $("#whitepaper").submit();
+        } else {
+            $("#email-validation-message").html("Invalid email address.");
+        }
+    })
+});
+
+function validateEmail(email) {
+    var re = /\S+@\S+\.\S+/;
+    return re.test(String(email).toLowerCase());
 }

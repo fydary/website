@@ -2,9 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\ValidateEmail;
 use Feeds;
 use DOMXPath;
 use DOMDocument;
+use Newsletter;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\App;
 
@@ -86,5 +88,12 @@ class AppController extends Controller
 
         return redirect()->back();
 
+    }
+
+    public function downloadWhitepaper(ValidateEmail $request)
+    {
+        Newsletter::subscribe($request->input('email'), [], 'pre-sign-ups');
+
+        return response()->download(storage_path("app/"). config('app.whitepaper'));
     }
 }

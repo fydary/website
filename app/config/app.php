@@ -123,6 +123,8 @@ return [
 
     'cipher' => 'AES-256-CBC',
 
+    'whitepaper' => env('WHITEPAPER_FILENAME'),
+
     /*
     |--------------------------------------------------------------------------
     | Autoloaded Service Providers

@@ -18,11 +18,11 @@
                                 data-wow-delay=".4s">@lang('dashboard.slider-title-1')</h1>
                             <h5 class="animated fadeInUp wow hero-sub-heading"
                                 data-wow-delay=".6s">@lang('dashboard.slider-desc-1')</h5>
-                            <a href="javascript:void(0)" class="animated fadeInUp wow btn btn-common"
-                               data-wow-delay=".8s"><i
-                                    class="material-icons mdi mdi-lightbulb-outline"></i> @lang('dashboard.slider-button-1')
-                                <div class="ripple-container"></div>
-                            </a>
+                            {{--                            <a href="javascript:void(0)" class="animated fadeInUp wow btn btn-common"--}}
+                            {{--                               data-wow-delay=".8s"><i--}}
+                            {{--                                    class="material-icons mdi mdi-lightbulb-outline"></i> @lang('dashboard.slider-button-1')--}}
+                            {{--                                <div class="ripple-container"></div>--}}
+                            {{--                            </a>--}}
                         </div>
                     </div>
                     <div class="carousel-item">
@@ -32,15 +32,15 @@
                                 data-wow-delay=".7s">@lang('dashboard.slider-title-2')</h1>
                             <h5 class="animated wow fadeInRight hero-sub-heading"
                                 data-wow-delay=".9s">@lang('dashboard.slider-desc-2')</h5>
-                            <a href="javascript:void(0)" class="animated fadeInUp wow btn btn-common"
-                               data-wow-delay=".6s"><i
-                                    class="material-icons mdi mdi-cart-outline"></i>@lang('dashboard.slider-button-2-1')
-                            </a>
-                            <a href="javascript:void(0)" class="animated fadeInUp wow btn btn-border"
-                               data-wow-delay=".8s"><i
-                                    class="material-icons mdi mdi-lightbulb-outline"></i> @lang('dashboard.slider-button-2-2')
-                                <div class="ripple-container"></div>
-                            </a>
+                            {{--                            <a href="javascript:void(0)" class="animated fadeInUp wow btn btn-common"--}}
+                            {{--                               data-wow-delay=".6s"><i--}}
+                            {{--                                    class="material-icons mdi mdi-cart-outline"></i>@lang('dashboard.slider-button-2-1')--}}
+                            {{--                            </a>--}}
+                            {{--                            <a href="javascript:void(0)" class="animated fadeInUp wow btn btn-border"--}}
+                            {{--                               data-wow-delay=".8s"><i--}}
+                            {{--                                    class="material-icons mdi mdi-lightbulb-outline"></i> @lang('dashboard.slider-button-2-2')--}}
+                            {{--                                <div class="ripple-container"></div>--}}
+                            {{--                            </a>--}}
                         </div>
                     </div>
                     <div class="carousel-item">
@@ -50,10 +50,10 @@
                                 data-wow-delay=".6s">@lang('dashboard.slider-title-3')</h1>
                             <h5 class="animated fadeInUp wow hero-sub-heading"
                                 data-wow-delay=".8s">@lang('dashboard.slider-desc-3')</h5>
-                            <a href="javascript:void(0)" class="animated fadeInUp wow btn btn-common"
-                               data-wow-delay=".8s"><i
-                                    class="material-icons mdi mdi-arrow-collapse-down"></i>@lang('dashboard.slider-button-3')
-                            </a>
+                            {{--                            <a href="javascript:void(0)" class="animated fadeInUp wow btn btn-common"--}}
+                            {{--                               data-wow-delay=".8s"><i--}}
+                            {{--                                    class="material-icons mdi mdi-arrow-collapse-down"></i>@lang('dashboard.slider-button-3')--}}
+                            {{--                            </a>--}}
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#main-slide" role="button" data-slide="prev">
@@ -114,7 +114,7 @@
     <!-- About Section End -->
 
     <!-- Welcome Section Start -->
-    <section class="welcome-section section-padding section-dark">
+    <section class="welcome-section section-padding section-dark" id="whitepaper-section">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-lg-7 col-xs-12">
@@ -171,11 +171,13 @@
                                 GET EXCLUSIVE ACCESS TO FYDARY WHITEPAPER <sup>BETA</sup>
                             </h4>
                             <form action="/downloadWhitepaper" id="whitepaper" method="get">
-                                <input type="email" name="email" id="whitepaper-email" placeholder="Email address" class="form-control white">
+                                <input type="email" name="email" id="whitepaper-email" placeholder="Email address"
+                                       class="form-control white">
                                 <small id="email-validation-message" class="white"></small>
-                                    @csrf
+                                @csrf
                                 <br>
-                                <a id="submit-whitepaper" class="animated4 btn btn-common btn-lg" ><i class="material-icons mdi mdi-arrow-collapse-down"></i>
+                                <a id="submit-whitepaper" class="animated4 btn btn-common btn-lg"><i
+                                        class="material-icons mdi mdi-arrow-collapse-down"></i>
                                     Download</a>
                             </form>
                         </div>
@@ -339,21 +341,22 @@
                 <!-- Single Team Widget -->
                 <div class="col-md-6 col-lg-3 col-xl-3 wow animated fadeInUp" data-wow-delay=".3s">
                     <div class="single-team-widget">
-                        <img src="assets/images/team/team1.jpg" class="img-fluid" alt="">
+                        <img src="img/maticprofileimage.jpg" class="img-fluid" alt="">
                         <div class="team-member-info">
-                            <div class="know-more">
-                                <a class="btn btn-round btn-fab btn-xs" href="javascript:void(0)"><i
-                                        class="material-icons mdi mdi-arrow-right"></i>
-                                    <div class="ripple-container"></div>
-                                </a>
-                            </div>
+                            {{--                            <div class="know-more">--}}
+                            {{--                                <a class="btn btn-round btn-fab btn-xs" href="javascript:void(0)"><i--}}
+                            {{--                                        class="material-icons mdi mdi-arrow-right"></i>--}}
+                            {{--                                    <div class="ripple-container"></div>--}}
+                            {{--                                </a>--}}
+                            {{--                            </div>--}}
                             <h2 class="subtitle">Matic Jagodic</h2>
-                            <p>Co-Founder and CEO</p>
+                            <p>Co Founder and Project Manager</p>
                             <div class="social-profiles">
-                                <a href="#"><i class="mdi mdi-twitter"></i></a>
-                                <a href="#"><i class="mdi mdi-facebook"></i></a>
-                                <a href="#"><i class="mdi mdi-dribbble"></i></a>
-                                <a href="#"><i class="mdi mdi-linkedin"></i></a>
+                                {{--                                <a href="#"><i class="mdi mdi-twitter"></i></a>--}}
+                                {{--                                <a href="#"><i class="mdi mdi-facebook"></i></a>--}}
+                                {{--                                <a href="#"><i class="mdi mdi-dribbble"></i></a>--}}
+                                <a href="https://www.linkedin.com/in/matic-jagodic-5b6747190/"><i
+                                        class="mdi mdi-linkedin"></i></a>
                             </div>
                         </div>
                     </div>
@@ -361,21 +364,21 @@
                 <!-- Single Team Widget -->
                 <div class="col-md-6 col-lg-3 col-xl-3 wow animated fadeInUp" data-wow-delay=".4s">
                     <div class="single-team-widget">
-                        <img src="assets/images/team/team2.jpg" class="img-fluid" alt="">
+                        <img src="img/joshuaprofileimage.jpg" class="img-fluid" alt="">
                         <div class="team-member-info">
-                            <div class="know-more">
-                                <a class="btn btn-round btn-fab btn-xs" href="javascript:void(0)"><i
-                                        class="material-icons mdi mdi-arrow-right"></i>
-                                    <div class="ripple-container"></div>
-                                </a>
-                            </div>
+                            {{--                            <div class="know-more">--}}
+                            {{--                                <a class="btn btn-round btn-fab btn-xs" href="javascript:void(0)"><i--}}
+                            {{--                                        class="material-icons mdi mdi-arrow-right"></i>--}}
+                            {{--                                    <div class="ripple-container"></div>--}}
+                            {{--                                </a>--}}
+                            {{--                            </div>--}}
                             <h2 class="subtitle">Joshua Blount</h2>
-                            <p>Co-Founder and CMO</p>
+                            <p>Co Founder and Chief Marketing Officer</p>
                             <div class="social-profiles">
-                                <a href="#"><i class="mdi mdi-twitter"></i></a>
-                                <a href="#"><i class="mdi mdi-facebook"></i></a>
-                                <a href="#"><i class="mdi mdi-dribbble"></i></a>
-                                <a href="#"><i class="mdi mdi-linkedin"></i></a>
+                                {{--                                <a href="#"><i class="mdi mdi-twitter"></i></a>--}}
+                                {{--                                <a href="#"><i class="mdi mdi-facebook"></i></a>--}}
+                                {{--                                <a href="#"><i class="mdi mdi-dribbble"></i></a>--}}
+                                <a href="https://www.linkedin.com/in/joshualeeblount/"><i class="mdi mdi-linkedin"></i></a>
                             </div>
                         </div>
                     </div>
@@ -384,20 +387,20 @@
                 <!-- Single Team Widget -->
                 <div class="col-md-6 col-lg-3 col-xl-3 wow animated fadeInUp" data-wow-delay=".6s">
                     <div class="single-team-widget">
-                        <img src="assets/images/team/team4.jpg" class="img-fluid" alt="">
+                        <img src="img/peterprofileimagecropped.jpeg" class="img-fluid" alt="">
                         <div class="team-member-info">
-                            <div class="know-more">
-                                <a class="btn btn-round btn-fab btn-xs" href="javascript:void(0)"><i
-                                        class="material-icons mdi mdi-arrow-right"></i>
-                                    <div class="ripple-container"></div>
-                                </a>
-                            </div>
+                            {{--                            <div class="know-more">--}}
+                            {{--                                <a class="btn btn-round btn-fab btn-xs" href="javascript:void(0)"><i--}}
+                            {{--                                        class="material-icons mdi mdi-arrow-right"></i>--}}
+                            {{--                                    <div class="ripple-container"></div>--}}
+                            {{--                                </a>--}}
+                            {{--                            </div>--}}
                             <h2 class="subtitle">Peter Kodermac</h2>
-                            <p>Co-Founder</p>
+                            <p>Co Founder & Chief Legal Officer</p>
                             <div class="social-profiles">
-                                <a href="#"><i class="mdi mdi-twitter"></i></a>
-                                <a href="#"><i class="mdi mdi-facebook"></i></a>
-                                <a href="#"><i class="mdi mdi-dribbble"></i></a>
+                                {{--                                <a href="#"><i class="mdi mdi-twitter"></i></a>--}}
+                                {{--                                <a href="#"><i class="mdi mdi-facebook"></i></a>--}}
+                                {{--                                <a href="#"><i class="mdi mdi-dribbble"></i></a>--}}
                                 <a href="#"><i class="mdi mdi-linkedin"></i></a>
                             </div>
                         </div>
@@ -406,43 +409,149 @@
                 <!-- Single Team Widget -->
                 <div class="col-md-6 col-lg-3 col-xl-3 wow animated fadeInUp" data-wow-delay=".5s">
                     <div class="single-team-widget">
-                        <img src="assets/images/team/team3.jpg" class="img-fluid" alt="">
+                        <img src="img/augustinprofileimage.jpg" class="img-fluid" alt="">
                         <div class="team-member-info">
-                            <div class="know-more">
-                                <a class="btn btn-round btn-fab btn-xs" href="javascript:void(0)"><i
-                                        class="material-icons mdi mdi-arrow-right"></i>
-                                    <div class="ripple-container"></div>
-                                </a>
+                            {{--                            <div class="know-more">--}}
+                            {{--                                <a class="btn btn-round btn-fab btn-xs" href="javascript:void(0)"><i--}}
+                            {{--                                        class="material-icons mdi mdi-arrow-right"></i>--}}
+                            {{--                                    <div class="ripple-container"></div>--}}
+                            {{--                                </a>--}}
+                            {{--                            </div>--}}
+                            <h2 class="subtitle">Augustin Ladar</h2>
+                            <p>Business Development Executive</p>
+                            <div class="social-profiles">
+                                {{--                                <a href="#"><i class="mdi mdi-twitter"></i></a>--}}
+                                {{--                                <a href="#"><i class="mdi mdi-facebook"></i></a>--}}
+                                {{--                                <a href="#"><i class="mdi mdi-dribbble"></i></a>--}}
+                                <a href="https://www.linkedin.com/in/augustinladar/"><i
+                                        class="mdi mdi-linkedin"></i></a>
                             </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Team Widget -->
+                <div class="col-md-6 col-lg-3 col-xl-3 wow animated fadeInUp" data-wow-delay=".5s">
+                    <div class="single-team-widget">
+                        <img src="img/henaprofileimage.jpg" class="img-fluid" alt="">
+                        <div class="team-member-info">
+                            {{--                            <div class="know-more">--}}
+                            {{--                                <a class="btn btn-round btn-fab btn-xs" href="javascript:void(0)"><i--}}
+                            {{--                                        class="material-icons mdi mdi-arrow-right"></i>--}}
+                            {{--                                    <div class="ripple-container"></div>--}}
+                            {{--                                </a>--}}
+                            {{--                            </div>--}}
+                            <h2 class="subtitle">Hena Klaric</h2>
+                            <p>Full Stack Developer</p>
+                            <div class="social-profiles">
+                                {{--                                <a href="#"><i class="mdi mdi-twitter"></i></a>--}}
+                                {{--                                <a href="#"><i class="mdi mdi-facebook"></i></a>--}}
+                                {{--                                <a href="#"><i class="mdi mdi-dribbble"></i></a>--}}
+                                <a href="https://www.linkedin.com/in/henaklaric/"><i class="mdi mdi-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 col-xl-3 wow animated fadeInUp" data-wow-delay=".5s">
+                    <div class="single-team-widget">
+                        <img src="img/jennyprofileimage.jpg" class="img-fluid" alt="">
+                        <div class="team-member-info">
+                            {{--                            <div class="know-more">--}}
+                            {{--                                <a class="btn btn-round btn-fab btn-xs" href="javascript:void(0)"><i--}}
+                            {{--                                        class="material-icons mdi mdi-arrow-right"></i>--}}
+                            {{--                                    <div class="ripple-container"></div>--}}
+                            {{--                                </a>--}}
+                            {{--                            </div>--}}
+                            <h2 class="subtitle">Jenny Jang</h2>
+                            <p>Korean SEO Specialist</p>
+                            <div class="social-profiles">
+                                {{--                                <a href="#"><i class="mdi mdi-twitter"></i></a>--}}
+                                {{--                                <a href="#"><i class="mdi mdi-facebook"></i></a>--}}
+                                {{--                                <a href="#"><i class="mdi mdi-dribbble"></i></a>--}}
+                                <a href="https://www.linkedin.com/in/koreaseoservice/"><i class="mdi mdi-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 col-xl-3 wow animated fadeInUp" data-wow-delay=".5s">
+                    <div class="single-team-widget">
+                        <img src="img/stacyprofileimagecropped.jpg" class="img-fluid" alt="">
+                        <div class="team-member-info">
+                            {{--                            <div class="know-more">--}}
+                            {{--                                <a class="btn btn-round btn-fab btn-xs" href="javascript:void(0)"><i--}}
+                            {{--                                        class="material-icons mdi mdi-arrow-right"></i>--}}
+                            {{--                                    <div class="ripple-container"></div>--}}
+                            {{--                                </a>--}}
+                            {{--                            </div>--}}
+                            <h2 class="subtitle">Stacy Kim</h2>
+                            <p>Korean Marketing Specialist</p>
+                            <div class="social-profiles">
+                                {{--                                <a href="#"><i class="mdi mdi-twitter"></i></a>--}}
+                                {{--                                <a href="#"><i class="mdi mdi-facebook"></i></a>--}}
+                                {{--                                <a href="#"><i class="mdi mdi-dribbble"></i></a>--}}
+                                <a href="https://www.linkedin.com/in/stacy-ji-eun-kim-36367b54/"><i class="mdi mdi-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 col-xl-3 wow animated fadeInUp" data-wow-delay=".5s">
+                    <div class="single-team-widget">
+                        <img src="img/naoprofileimage.jpg" class="img-fluid" alt="">
+                        <div class="team-member-info">
+                            {{--                            <div class="know-more">--}}
+                            {{--                                <a class="btn btn-round btn-fab btn-xs" href="javascript:void(0)"><i--}}
+                            {{--                                        class="material-icons mdi mdi-arrow-right"></i>--}}
+                            {{--                                    <div class="ripple-container"></div>--}}
+                            {{--                                </a>--}}
+                            {{--                            </div>--}}
+                            <h2 class="subtitle">Nao Izawa</h2>
+                            <p>Japanese Marketing Specialist</p>
+                            <div class="social-profiles">
+                                {{--                                <a href="#"><i class="mdi mdi-twitter"></i></a>--}}
+                                {{--                                <a href="#"><i class="mdi mdi-facebook"></i></a>--}}
+                                {{--                                <a href="#"><i class="mdi mdi-dribbble"></i></a>--}}
+                                <a href="https://www.linkedin.com/in/naohikoizawa/"><i class="mdi mdi-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 col-xl-3 wow animated fadeInUp" data-wow-delay=".5s">
+                    <div class="single-team-widget">
+                        <img src="img/markusprofileimage.jpg" class="img-fluid" alt="">
+                        <div class="team-member-info">
+                            {{--                            <div class="know-more">--}}
+                            {{--                                <a class="btn btn-round btn-fab btn-xs" href="javascript:void(0)"><i--}}
+                            {{--                                        class="material-icons mdi mdi-arrow-right"></i>--}}
+                            {{--                                    <div class="ripple-container"></div>--}}
+                            {{--                                </a>--}}
+                            {{--                            </div>--}}
+                            <h2 class="subtitle">Markus Shäfer</h2>
+                            <p>German Marketing Specialist</p>
+                            <div class="social-profiles">
+                                {{--                                <a href="#"><i class="mdi mdi-twitter"></i></a>--}}
+                                {{--                                <a href="#"><i class="mdi mdi-facebook"></i></a>--}}
+                                {{--                                <a href="#"><i class="mdi mdi-dribbble"></i></a>--}}
+                                <a href="https://www.linkedin.com/in/markus-schäfer-090539178/"><i class="mdi mdi-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 col-xl-3 wow animated fadeInUp" data-wow-delay=".5s">
+                    <div class="single-team-widget">
+                        <img src="img/priyaprofileimage.jpg" class="img-fluid" alt="">
+                        <div class="team-member-info">
+                            {{--                            <div class="know-more">--}}
+                            {{--                                <a class="btn btn-round btn-fab btn-xs" href="javascript:void(0)"><i--}}
+                            {{--                                        class="material-icons mdi mdi-arrow-right"></i>--}}
+                            {{--                                    <div class="ripple-container"></div>--}}
+                            {{--                                </a>--}}
+                            {{--                            </div>--}}
                             <h2 class="subtitle">Priyadarshini Bhuyan</h2>
                             <p>Graphic Designer</p>
                             <div class="social-profiles">
-                                <a href="#"><i class="mdi mdi-twitter"></i></a>
-                                <a href="#"><i class="mdi mdi-facebook"></i></a>
-                                <a href="#"><i class="mdi mdi-dribbble"></i></a>
-                                <a href="#"><i class="mdi mdi-linkedin"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Team Widget -->
-                <div class="col-md-6 col-lg-3 col-xl-3 wow animated fadeInUp" data-wow-delay=".5s">
-                    <div class="single-team-widget">
-                        <img src="assets/images/team/team3.jpg" class="img-fluid" alt="">
-                        <div class="team-member-info">
-                            <div class="know-more">
-                                <a class="btn btn-round btn-fab btn-xs" href="javascript:void(0)"><i
-                                        class="material-icons mdi mdi-arrow-right"></i>
-                                    <div class="ripple-container"></div>
-                                </a>
-                            </div>
-                            <h2 class="subtitle">Markus Schaffer</h2>
-                            <p>Social Media Marketer</p>
-                            <div class="social-profiles">
-                                <a href="#"><i class="mdi mdi-twitter"></i></a>
-                                <a href="#"><i class="mdi mdi-facebook"></i></a>
-                                <a href="#"><i class="mdi mdi-dribbble"></i></a>
-                                <a href="#"><i class="mdi mdi-linkedin"></i></a>
+                                {{--                                <a href="#"><i class="mdi mdi-twitter"></i></a>--}}
+                                {{--                                <a href="#"><i class="mdi mdi-facebook"></i></a>--}}
+                                {{--                                <a href="#"><i class="mdi mdi-dribbble"></i></a>--}}
+                                <a href="https://www.linkedin.com/in/priyadarshini-bhuyan-794377142/"><i class="mdi mdi-linkedin"></i></a>
                             </div>
                         </div>
                     </div>
@@ -453,114 +562,114 @@
     <!-- Our Team Section End -->
 
     <!-- Start Testimonial Section  -->
-    <div class="testimonial section-padding">
-        <div class="container">
-            <div class="row">
-                <!-- Testimonial section  -->
-                <div class="testimonials-carousel owl-carousel">
-                    <div class="item">
-                        <div class="testimonial-item">
-                            <div class="datils">
-                                <h5>Adam Schwartz</h5>
-                                <span>Software Articulate, Google</span>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                    Ipsum
-                                    has been the industry's <br> standard dummy text ever since the 1500s Lorem Ipsum.
-                                </p>
-                            </div>
-                            <div class="img">
-                                <a href="#"><img class="img-fluid" src="assets/images/testimonial/author1.jpg"
-                                                 alt=""></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="testimonial-item">
-                            <div class="datils">
-                                <h5>Clark Brown</h5>
-                                <span>Brand Managerr</span>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                    Ipsum
-                                    has been the industry's <br> standard dummy text ever since the 1500s Lorem Ipsum.
-                                </p>
-                            </div>
-                            <div class="img">
-                                <a href="#"><img class="img-fluid" src="assets/images/testimonial/author2.jpg"
-                                                 alt=""></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="testimonial-item">
-                            <div class="datils">
-                                <h5>Ana Blunt</h5>
-                                <span>Creative Director</span>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                    Ipsum
-                                    has been the industry's <br> standard dummy text ever since the 1500s Lorem Ipsum.
-                                </p>
-                            </div>
-                            <div class="img">
-                                <a href="#"><img class="img-fluid" src="assets/images/testimonial/author3.jpg"
-                                                 alt=""></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    {{--    <div class="testimonial section-padding">--}}
+    {{--        <div class="container">--}}
+    {{--            <div class="row">--}}
+    {{--                <!-- Testimonial section  -->--}}
+    {{--                <div class="testimonials-carousel owl-carousel">--}}
+    {{--                    <div class="item">--}}
+    {{--                        <div class="testimonial-item">--}}
+    {{--                            <div class="datils">--}}
+    {{--                                <h5>Adam Schwartz</h5>--}}
+    {{--                                <span>Software Articulate, Google</span>--}}
+    {{--                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem--}}
+    {{--                                    Ipsum--}}
+    {{--                                    has been the industry's <br> standard dummy text ever since the 1500s Lorem Ipsum.--}}
+    {{--                                </p>--}}
+    {{--                            </div>--}}
+    {{--                            <div class="img">--}}
+    {{--                                <a href="#"><img class="img-fluid" src="assets/images/testimonial/author1.jpg"--}}
+    {{--                                                 alt=""></a>--}}
+    {{--                            </div>--}}
+    {{--                        </div>--}}
+    {{--                    </div>--}}
+    {{--                    <div class="item">--}}
+    {{--                        <div class="testimonial-item">--}}
+    {{--                            <div class="datils">--}}
+    {{--                                <h5>Clark Brown</h5>--}}
+    {{--                                <span>Brand Managerr</span>--}}
+    {{--                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem--}}
+    {{--                                    Ipsum--}}
+    {{--                                    has been the industry's <br> standard dummy text ever since the 1500s Lorem Ipsum.--}}
+    {{--                                </p>--}}
+    {{--                            </div>--}}
+    {{--                            <div class="img">--}}
+    {{--                                <a href="#"><img class="img-fluid" src="assets/images/testimonial/author2.jpg"--}}
+    {{--                                                 alt=""></a>--}}
+    {{--                            </div>--}}
+    {{--                        </div>--}}
+    {{--                    </div>--}}
+    {{--                    <div class="item">--}}
+    {{--                        <div class="testimonial-item">--}}
+    {{--                            <div class="datils">--}}
+    {{--                                <h5>Ana Blunt</h5>--}}
+    {{--                                <span>Creative Director</span>--}}
+    {{--                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem--}}
+    {{--                                    Ipsum--}}
+    {{--                                    has been the industry's <br> standard dummy text ever since the 1500s Lorem Ipsum.--}}
+    {{--                                </p>--}}
+    {{--                            </div>--}}
+    {{--                            <div class="img">--}}
+    {{--                                <a href="#"><img class="img-fluid" src="assets/images/testimonial/author3.jpg"--}}
+    {{--                                                 alt=""></a>--}}
+    {{--                            </div>--}}
+    {{--                        </div>--}}
+    {{--                    </div>--}}
+    {{--                </div>--}}
+    {{--            </div>--}}
+    {{--        </div>--}}
+    {{--    </div>--}}
     <!-- End Testimonial Section  -->
 
     <!-- Start Client Section -->
-    <div class="client section-padding section-dark client-image1">
-        <div class="container">
-            <div class="row">
-                <div id="client-logo" class="owl-carousel">
-                    <div class="client-logo item">
-                        <a href="#">
-                            <img class="img-fluid" src="assets/images/clients/client1.png" alt=""/>
-                        </a>
-                    </div>
-                    <div class="client-logo item">
-                        <a href="#">
-                            <img class="img-fluid" src="assets/images/clients/client2.png" alt=""/>
-                        </a>
-                    </div>
-                    <div class="client-logo item">
-                        <a href="#">
-                            <img class="img-fluid" src="assets/images/clients/client3.png" alt=""/>
-                        </a>
-                    </div>
-                    <div class="client-logo item">
-                        <a href="#">
-                            <img class="img-fluid" src="assets/images/clients/client4.png" alt=""/>
-                        </a>
-                    </div>
-                    <div class="client-logo item">
-                        <a href="#">
-                            <img class="img-fluid" src="assets/images/clients/client1.png" alt=""/>
-                        </a>
-                    </div>
-                    <div class="client-logo item">
-                        <a href="#">
-                            <img class="img-fluid" src="assets/images/clients/client2.png" alt=""/>
-                        </a>
-                    </div>
-                    <div class="client-logo item">
-                        <a href="#">
-                            <img class="img-fluid" src="assets/images/clients/client3.png" alt=""/>
-                        </a>
-                    </div>
-                    <div class="client-logo item">
-                        <a href="#">
-                            <img class="img-fluid" src="assets/images/clients/client4.png" alt=""/>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    {{--    <div class="client section-padding section-dark client-image1">--}}
+    {{--        <div class="container">--}}
+    {{--            <div class="row">--}}
+    {{--                <div id="client-logo" class="owl-carousel">--}}
+    {{--                    <div class="client-logo item">--}}
+    {{--                        <a href="#">--}}
+    {{--                            <img class="img-fluid" src="assets/images/clients/client1.png" alt=""/>--}}
+    {{--                        </a>--}}
+    {{--                    </div>--}}
+    {{--                    <div class="client-logo item">--}}
+    {{--                        <a href="#">--}}
+    {{--                            <img class="img-fluid" src="assets/images/clients/client2.png" alt=""/>--}}
+    {{--                        </a>--}}
+    {{--                    </div>--}}
+    {{--                    <div class="client-logo item">--}}
+    {{--                        <a href="#">--}}
+    {{--                            <img class="img-fluid" src="assets/images/clients/client3.png" alt=""/>--}}
+    {{--                        </a>--}}
+    {{--                    </div>--}}
+    {{--                    <div class="client-logo item">--}}
+    {{--                        <a href="#">--}}
+    {{--                            <img class="img-fluid" src="assets/images/clients/client4.png" alt=""/>--}}
+    {{--                        </a>--}}
+    {{--                    </div>--}}
+    {{--                    <div class="client-logo item">--}}
+    {{--                        <a href="#">--}}
+    {{--                            <img class="img-fluid" src="assets/images/clients/client1.png" alt=""/>--}}
+    {{--                        </a>--}}
+    {{--                    </div>--}}
+    {{--                    <div class="client-logo item">--}}
+    {{--                        <a href="#">--}}
+    {{--                            <img class="img-fluid" src="assets/images/clients/client2.png" alt=""/>--}}
+    {{--                        </a>--}}
+    {{--                    </div>--}}
+    {{--                    <div class="client-logo item">--}}
+    {{--                        <a href="#">--}}
+    {{--                            <img class="img-fluid" src="assets/images/clients/client3.png" alt=""/>--}}
+    {{--                        </a>--}}
+    {{--                    </div>--}}
+    {{--                    <div class="client-logo item">--}}
+    {{--                        <a href="#">--}}
+    {{--                            <img class="img-fluid" src="assets/images/clients/client4.png" alt=""/>--}}
+    {{--                        </a>--}}
+    {{--                    </div>--}}
+    {{--                </div>--}}
+    {{--            </div>--}}
+    {{--        </div>--}}
+    {{--    </div>--}}
     <!-- End Client Section -->
 
 

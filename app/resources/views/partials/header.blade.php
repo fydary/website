@@ -41,9 +41,15 @@
                             @lang('dashboard.team')
                         </a>
                     </li>
+
                     <li class="nav-item">
                         <a class="nav-link scroll-link" href="#contact">
                             @lang('dashboard.contact')
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll-link btn btn-common btn-sm btn-whitepaper" href="#whitepaper-section">
+                            Whitepaper
                         </a>
                     </li>
                     <li class="nav-item dropdown">
@@ -59,6 +65,24 @@
                         </div>
                     </li>
                 </ul>
+                <!-- Search Box Start -->
+{{--                <div class="search-icon">--}}
+{{--                          <span class="open-search">--}}
+{{--                            <i class="mdi mdi-magnify btn btn-common"></i>--}}
+{{--                          </span>--}}
+{{--                </div>--}}
+            {{--                            <form role="search" class="navbar-form">--}}
+            {{--                                <div class="container">--}}
+            {{--                                    <div class="row">--}}
+            {{--                                        <div class="form-group has-feedback">--}}
+            {{--                                            <input type="text" placeholder="{{__('dashboard.type-and-search')}}"--}}
+            {{--                                                   class="form-control">--}}
+            {{--                                            <div class="close"><i class="mdi mdi-close"></i></div>--}}
+            {{--                                        </div>--}}
+            {{--                                    </div>--}}
+            {{--                                </div>--}}
+            {{--                            </form>--}}
+            <!-- Search Box End -->
 {{--                <div class="header-actions">--}}
 {{--                    <!-- Rounded switch -->--}}
 {{--                    <div class="custom-control custom-switch">--}}
@@ -67,24 +91,7 @@
 {{--                    </div>--}}
 
 {{--                </div>--}}
-                <!-- Search Box Start -->
-            {{--                <div class="search-icon">--}}
-            {{--              <span class="open-search">--}}
-            {{--                <i class="mdi mdi-magnify btn btn-common"></i>--}}
-            {{--              </span>--}}
-            {{--                </div>--}}
-            {{--                <form role="search" class="navbar-form">--}}
-            {{--                    <div class="container">--}}
-            {{--                        <div class="row">--}}
-            {{--                            <div class="form-group has-feedback">--}}
-            {{--                                <input type="text" placeholder="{{__('dashboard.type-and-search')}}"--}}
-            {{--                                       class="form-control">--}}
-            {{--                                <div class="close"><i class="mdi mdi-close"></i></div>--}}
-            {{--                            </div>--}}
-            {{--                        </div>--}}
-            {{--                    </div>--}}
-            {{--                </form>--}}
-            <!-- Search Box End -->
+
             </div>
         </div>
         <!-- Mobile Menu Start -->

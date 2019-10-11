@@ -12,3 +12,4 @@ const mix = require('laravel-mix');
  */
 
 mix.copyDirectory('node_modules/flag-icon-css', 'public/flag-icon-css');
+mix.copyDirectory('resources/img', 'public/img');

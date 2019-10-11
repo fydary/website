@@ -83,3 +83,14 @@
 .whitepaper-title {
     margin: 30px 10px;
 }
+
+.btn-whitepaper {
+    margin-top: 15px !important;
+    padding: 6px 12px !important;
+    font-size: 12px !important;
+    border-top: 0px !important;
+}
+
+.single-team-widget .team-member-info {
+    height: 160px;
+}

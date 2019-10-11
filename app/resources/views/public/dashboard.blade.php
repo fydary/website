@@ -79,7 +79,7 @@
                 <!-- Single About -->
                 <div class="col-md-6 col-lg-3 col-xl-3 wow animated fadeInUp" data-wow-delay=".2s">
                     <div class="about-single">
-                        <i class="icons_new"><img src="assets/images/icons/removingbarriericon.png" alt=""></i>
+                        <i class="icons_new"><img src="assets/images/icons/removingbarriericon.png" class="custom-icon" alt=""></i>
                         <h2 class="subtitle">@lang('dashboard.about-title-1')</h2>
                         <p>@lang('dashboard.about-desc-1')</p>
                     </div>
@@ -87,7 +87,7 @@
                 <!-- Single About -->
                 <div class="col-md-6 col-lg-3 col-xl-3 wow animated fadeInUp" data-wow-delay=".3s">
                     <div class="about-single">
-                        <i class="icons_new"><img src="assets/images/icons/financemeetslegalicon.png" alt=""></i>
+                        <i class="icons_new"><img src="assets/images/icons/financemeetslegalicon.png" class="custom-icon" alt=""></i>
                         <h2 class="subtitle">@lang('dashboard.about-title-2')</h2>
                         <p>@lang('dashboard.about-desc-2')</p>
                     </div>
@@ -95,7 +95,7 @@
                 <!-- Single About -->
                 <div class="col-md-6 col-lg-3 col-xl-3 wow animated fadeInUp" data-wow-delay=".4s">
                     <div class="about-single">
-                        <i class="icons_new"><img src="assets/images/icons/blockchaintechnologyicon.png" alt=""></i>
+                        <i class="icons_new"><img src="assets/images/icons/blockchaintechnologyicon.png" class="custom-icon" alt=""></i>
                         <h2 class="subtitle">@lang('dashboard.about-title-3')</h2>
                         <p>@lang('dashboard.about-desc-3')</p>
                     </div>
@@ -103,7 +103,7 @@
                 <!-- Single About -->
                 <div class="col-md-6 col-lg-3 col-xl-3 wow animated fadeInUp" data-wow-delay=".5s">
                     <div class="about-single">
-                        <i class="icons_new"><img src="assets/images/icons/fulluserexperienceicon.png" alt=""></i>
+                        <i class="icons_new"><img src="assets/images/icons/fulluserexperienceicon.png" class="custom-icon" alt=""></i>
                         <h2 class="subtitle">@lang('dashboard.about-title-4')</h2>
                         <p>@lang('dashboard.about-desc-4')</p>
                     </div>
@@ -123,22 +123,22 @@
                         <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
                             <li class="nav-item">
                                 <a class="nav-link active" data-toggle="tab" href="#finance" role="tab"><i
-                                        class="icons_new"><img src="assets/images/icons/financeicon.png" alt=""></i>
+                                        class="icons_new"><img src="assets/images/icons/financeicon.png" class="custom-icon" alt=""></i>
                                     <br>@lang('dashboard.tab-title-1')</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" data-toggle="tab" href="#technology" role="tab"><i
-                                        class="icons_new"><img src="assets/images/icons/technologyicon.png" alt=""></i>
+                                        class="icons_new"><img src="assets/images/icons/technologyicon.png" class="custom-icon" alt=""></i>
                                     <br>@lang('dashboard.tab-title-2')</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" data-toggle="tab" href="#legal" role="tab"><i class="icons_new"><img
-                                            src="assets/images/icons/legalicon.png" alt=""></i>
+                                            src="assets/images/icons/legalicon.png" class="custom-icon" alt=""></i>
                                     <br>@lang('dashboard.tab-title-3')</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" data-toggle="tab" href="#businessdevelopment" role="tab"><i
-                                        class="icons_new"><img src="assets/images/icons/businessdevelopmenticon.png"
+                                        class="icons_new"><img src="assets/images/icons/businessdevelopmenticon.png" class="custom-icon"
                                                                alt=""></i>
                                     <br>@lang('dashboard.tab-title-4')</a>
                             </li>
@@ -204,7 +204,7 @@
                      data-wow-delay=".3s">
                     <div class="media">
                         <div class="media-left">
-                            <i class="icons_new"><img src="assets/images/icons/hedgefundsicon.png" alt=""></i>
+                            <i class="icons_new"><img src="assets/images/icons/hedgefundsicon.png" class="custom-icon" alt=""></i>
                         </div>
                         <div class="media-body">
                             <h2 class="subtitle"><a href="#">@lang('dashboard.industry-title-1')</a></h2>
@@ -217,7 +217,7 @@
                      data-wow-delay=".4s">
                     <div class="media">
                         <div class="media-left">
-                            <i class="icons_new"><img src="assets/images/icons/realestateicon.png" alt=""></i>
+                            <i class="icons_new"><img src="assets/images/icons/realestateicon.png" class="custom-icon" alt=""></i>
                         </div>
                         <div class="media-body">
                             <h2 class="subtitle"><a href="#">@lang('dashboard.industry-title-2')</a></h2>
@@ -230,7 +230,7 @@
                      data-wow-delay=".5s">
                     <div class="media">
                         <div class="media-left">
-                            <i class="icons_new"><img src="assets/images/icons/energyicon.png" alt=""></i>
+                            <i class="icons_new"><img src="assets/images/icons/energyicon.png" class="custom-icon" alt=""></i>
                         </div>
                         <div class="media-body">
                             <h2 class="subtitle"><a href="#">@lang('dashboard.industry-title-3')</a></h2>
@@ -243,7 +243,7 @@
                      data-wow-delay=".6s">
                     <div class="media">
                         <div class="media-left">
-                            <i class="icons_new"><img src="assets/images/icons/transportlogisticsicon.png" alt=""></i>
+                            <i class="icons_new"><img src="assets/images/icons/transportlogisticsicon.png" class="custom-icon" alt=""></i>
                         </div>
                         <div class="media-body">
                             <h2 class="subtitle"><a href="#">@lang('dashboard.industry-title-4')</a></h2>
@@ -256,7 +256,7 @@
                      data-wow-delay=".7s">
                     <div class="media">
                         <div class="media-left">
-                            <i class="icons_new"><img src="assets/images/icons/farmingicon.png" alt=""></i>
+                            <i class="icons_new"><img src="assets/images/icons/farmingicon.png" class="custom-icon" alt=""></i>
                         </div>
                         <div class="media-body">
                             <h2 class="subtitle"><a href="#">@lang('dashboard.industry-title-5')</a></h2>
@@ -269,7 +269,7 @@
                      data-wow-delay=".8s">
                     <div class="media">
                         <div class="media-left">
-                            <i class="icons_new"><img src="assets/images/icons/charityicon.png" alt=""></i>
+                            <i class="icons_new"><img src="assets/images/icons/charityicon.png" class="custom-icon" alt=""></i>
                         </div>
                         <div class="media-body">
                             <h2 class="subtitle"><a href="#">@lang('dashboard.industry-title-6')</a></h2>
@@ -291,7 +291,7 @@
                 <div class="col-md-3 col-sm-6 work-counter-widget text-center wow animated fadeInUp"
                      data-wow-delay=".2s">
                     <div class="counter">
-                        <div class="icons_new"><img src="assets/images/icons/partnersicon.png" alt=""></div>
+                        <div class="icons_new"><img src="assets/images/icons/partnersicon.png" class="custom-icon" alt=""></div>
                         <div class="timer">5</div>
                         <p>@lang('dashboard.counter-1')</p>
                     </div>
@@ -300,7 +300,7 @@
                 <div class="col-md-3 col-sm-6 work-counter-widget text-center wow animated fadeInUp"
                      data-wow-delay=".3s">
                     <div class="counter">
-                        <div class="icons_new"><img src="assets/images/icons/projectsicon.png" alt=""></div>
+                        <div class="icons_new"><img src="assets/images/icons/projectsicon.png" class="custom-icon" alt=""></div>
                         <div class="timer">27</div>
                         <p>@lang('dashboard.counter-2')</p>
                     </div>
@@ -309,7 +309,7 @@
                 <div class="col-md-3 col-sm-6 work-counter-widget text-center wow animated fadeInUp"
                      data-wow-delay=".4s">
                     <div class="counter">
-                        <div class="icons_new"><img src="assets/images/icons/teammembersicon.png" alt=""></div>
+                        <div class="icons_new"><img src="assets/images/icons/teammembersicon.png" class="custom-icon" alt=""></div>
                         <div class="timer">35</div>
                         <p>@lang('dashboard.counter-3')</p>
                     </div>
@@ -318,7 +318,7 @@
                 <div class="col-md-3 col-sm-6 work-counter-widget text-center wow animated fadeInUp"
                      data-wow-delay=".5s">
                     <div class="counter">
-                        <div class="icons_new"><img src="assets/images/icons/usersicon.png" alt=""></div>
+                        <div class="icons_new"><img src="assets/images/icons/usersicon.png" class="custom-icon" alt=""></div>
                         <div class="timer">5478</div>
                         <p>@lang('dashboard.counter-4')</p>
                     </div>

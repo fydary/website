@@ -1,0 +1,39 @@
+body,
+section,
+.navbar,
+.dropdown-item,
+.Material-tab,
+.nav,
+.nav-link,
+label,
+.tab-content,
+.team-member-info {
+    background-color: #1B0D3C !important;
+}
+
+body,
+section,
+.navbar,
+.Material-tab,
+.nav,
+.nav-link,
+label,
+h1,
+.dropdown-item,
+.tab-content,
+.team-member-info,
+p,
+.timer {
+    color: #FFFFFF !important;
+}
+
+#myTab,
+.tab-content,
+.whitepaper,
+.single-team-widget{
+    box-shadow: 0 1px 4px rgba(255,255,255, 0.3) !important;
+}
+
+.single-team-widget:hover {
+    box-shadow: 0px 2px 10px 2px rgba(255,255,255, 0.3) !important;;
+}

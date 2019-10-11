@@ -83,14 +83,14 @@
             {{--                                </div>--}}
             {{--                            </form>--}}
             <!-- Search Box End -->
-{{--                <div class="header-actions">--}}
-{{--                    <!-- Rounded switch -->--}}
-{{--                    <div class="custom-control custom-switch">--}}
-{{--                        <input type="checkbox" class="custom-control-input" id="customSwitch1">--}}
-{{--                        <label class="custom-control-label" for="customSwitch1">Dark mode</label>--}}
-{{--                    </div>--}}
+                <div class="header-actions">
+                    <!-- Rounded switch -->
+                    <div class="custom-control custom-switch">
+                        <input type="checkbox" class="custom-control-input" id="darkMode">
+                        <label class="custom-control-label dark-mode" for="darkMode">Dark mode</label>
+                    </div>
 
-{{--                </div>--}}
+                </div>
 
             </div>
         </div>

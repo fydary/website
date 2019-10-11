@@ -196,6 +196,7 @@
 <script src="assets/js/jquery.slicknav.js"></script>
 
 
+<script src="assets/js/dark-mode.js"></script>
 <script src="assets/js/main.js"></script>
 
 <script src="/js/app.js"></script>

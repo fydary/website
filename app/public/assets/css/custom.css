@@ -54,15 +54,22 @@
 }
 
 .header-actions {
-    margin-left: 10px;
-    width: 33%;
+    margin-left: 30px;
     text-align: right;
+}
+
+.dark-mode {
+    padding-top: 1px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
 }
 
 .custom-control {
     display: inline;
     font-size: 14px !important;
     font-family: 'Montserrat', sans-serif;
+    vertical-align: middle;
 }
 
 .custom-switch .custom-control-label::after {

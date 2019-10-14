@@ -104,7 +104,7 @@
                 <p>@lang('dashboard.subscribe-desc')</p>
                 <div class="mt-3"></div>
                 <ul class="icon-list">
-                    <li><i class="mdi mdi-map-marker"></i>@lang('dashboard.ljubljana-slovenija')</li>
+                    <li><i class="mdi mdi-map-marker"></i>@lang('dashboard.ljubljana-slovenia')</li>
                     <li><i class="mdi mdi-email"></i> <a href="mailto:contact@fydary.io" class="nocolor">contact@fydary.io</a>
                     </li>
                 </ul>

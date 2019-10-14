@@ -31,11 +31,11 @@
                             @lang('dashboard.industry')
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link scroll-link" href="#partners">
-                            @lang('dashboard.partners')
-                        </a>
-                    </li>
+{{--                    <li class="nav-item">--}}
+{{--                        <a class="nav-link scroll-link" href="#partners">--}}
+{{--                            @lang('dashboard.partners')--}}
+{{--                        </a>--}}
+{{--                    </li>--}}
                     <li class="nav-item">
                         <a class="nav-link scroll-link" href="#team">
                             @lang('dashboard.team')
@@ -49,7 +49,7 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link scroll-link btn btn-common btn-sm btn-whitepaper" href="#whitepaper-section">
-                            Whitepaper
+                            @lang('dashboard.whitepaper')
                         </a>
                     </li>
                     <li class="nav-item dropdown">
@@ -111,11 +111,11 @@
                     @lang('dashboard.industry')
                 </a>
             </li>
-            <li>
-                <a class="nav-link scroll-link" href="#partners">
-                    @lang('dashboard.partners')
-                </a>
-            </li>
+{{--            <li>--}}
+{{--                <a class="nav-link scroll-link" href="#partners">--}}
+{{--                    @lang('dashboard.partners')--}}
+{{--                </a>--}}
+{{--            </li>--}}
             <li>
                 <a class="nav-link scroll-link" href="#team">
                     @lang('dashboard.team')
@@ -125,6 +125,23 @@
                 <a class="nav-link scroll-link" href="#contact">
                     @lang('dashboard.contact')
                 </a>
+            </li>
+            <li class="slicknav_parent slicknav_open">
+                <span role="menuitem" aria-haspopup="false" tabindex="0" style="outline: none;">
+                    <span class="flag-icon flag-icon-{{$languages[session('lang')]['code']}}"></span>
+                    <span style="color: #666">{{$languages[session('lang')]['title']}}</span>
+                </span>
+                <ul class="slicknav_hidden" role="menu" aria-hidden="true" style="display: none;">
+                    @foreach($languages as $key => $language)
+                        @if($key !== session('lang'))
+                            <li>
+                                <a href="/changeLanguage?lang={{$key}}" role="menuitem" tabindex="-1"><span
+                                        class="flag-icon flag-icon-{{$language['code']}}"> </span> {{$language['title']}}
+                                </a>
+                            </li>
+                        @endif
+                    @endforeach
+                </ul>
             </li>
         </ul>
         <!-- Mobile Menu End -->

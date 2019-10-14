@@ -17,10 +17,11 @@ class AppController extends Controller
         $this->middleware(function($request, $next) {
             if (!session('lang')){
                 session(['lang' => 'en']);
-                App::setLocale('en');
             }
 
             $this->lang = session('lang');
+
+            App::setLocale($this->lang);
 
             $this->languages = [
                 'en' => [

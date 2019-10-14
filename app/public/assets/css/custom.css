@@ -109,3 +109,7 @@
 .single-team-widget .team-member-info {
     height: 160px;
 }
+
+#myTab {
+    padding: 0px;
+}

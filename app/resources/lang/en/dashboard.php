@@ -1,7 +1,7 @@
 <?php
 
 return [
-
+    'whitepaper' => 'Whitepaper',
     'home' => 'Home',
     'about' => 'About',
     'industry' => 'Industry',

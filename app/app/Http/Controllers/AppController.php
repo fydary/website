@@ -14,8 +14,8 @@ class AppController extends Controller
 {
     public function __construct()
     {
-        $this->middleware(function($request, $next) {
-            if (!session('lang')){
+        $this->middleware(function ($request, $next) {
+            if (!session('lang')) {
                 session(['lang' => 'en']);
             }
 
@@ -27,7 +27,7 @@ class AppController extends Controller
                 'en' => [
                     'title' => 'English',
                     'code' => 'gb'
-                    ],
+                ],
                 'ger' => [
                     'title' => 'German',
                     'code' => 'de'
@@ -36,7 +36,7 @@ class AppController extends Controller
                     'title' => 'Japanese',
                     'code' => 'jp'
                 ],
-                'kor' =>  [
+                'kor' => [
                     'title' => 'Korean',
                     'code' => 'kr'
                 ]
@@ -95,6 +95,11 @@ class AppController extends Controller
     {
         Newsletter::subscribe($request->input('email'), [], 'pre-sign-ups');
 
-        return response()->download(storage_path("app/"). config('app.whitepaper'));
+        return response()->download(storage_path("app/") . config('app.whitepaper'));
+    }
+
+    public function getTranslations(Request $request)
+    {
+        return response()->json(__('dashboard'));
     }
 }

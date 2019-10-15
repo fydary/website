@@ -24,7 +24,7 @@ class PostContact extends FormRequest
     public function rules()
     {
         return [
-            'email' => 'required|email:rfc,dns',
+            'email' => 'required|email',
             'name' => 'required',
             'msg_subject' => 'required',
             'message' => 'required'

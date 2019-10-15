@@ -83,5 +83,6 @@ return [
     'download' => 'ダウンロード',
     'contact-form-validation-error' => 'フォームを正しく作成しましたか？',
     'contact-form-something-went-wrong' => '失敗しました。入力情報を確認しもう一度お試しください。',
-    'contact-form-success' => 'メッセージは送信されました！'
+    'contact-form-success' => 'メッセージは送信されました！',
+    'invalid-email-address' => '無効なメールアドレス。'
 ];

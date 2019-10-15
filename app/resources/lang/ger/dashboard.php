@@ -83,5 +83,6 @@ return [
     'download' => 'Download',
     'contact-form-validation-error' => 'Wurde das Formular richtig ausgefüllt?',
     'contact-form-something-went-wrong' => 'Etwas ist falsch gelaufen. Überprüfe bitte deine Eingaben und versuch es nochmal.',
-    'contact-form-success' => 'Die Nachricht wurde eingereicht!'
+    'contact-form-success' => 'Die Nachricht wurde eingereicht!',
+    'invalid-email-address' => 'Ungültige E-Mail-Adresse.'
 ];

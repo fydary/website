@@ -15,3 +15,4 @@ Route::get('/', 'AppController@home');
 Route::post('/contact', 'ContactController@postContact');
 Route::get('/downloadWhitepaper', 'AppController@downloadWhitepaper');
 Route::get('/changeLanguage', 'AppController@changeLanguage');
+Route::get('/getTranslations', 'AppController@getTranslations');

@@ -700,35 +700,40 @@
                 <!-- contact form -->
                 <div class="col-md-6 wow animated fadeInRight" data-wow-delay=".2s">
                     <form class="shake" role="form" method="post" id="contactForm" name="contact-form"
-                          data-toggle="validator">
+                          data-toggle="validator" action="javascript:;" onsubmit="submitForm(this)">
                         <!-- Name -->
                         <div class="form-group label-floating">
-                            <label class="control-label white" for="name">Name</label>
+                            <label class="control-label white" for="name">@lang('dashboard.name')</label>
                             <input class="form-control white" id="name" type="text" name="name" required
-                                   data-error="{{__('dashboard.name-validation-message')}}">
+                                   data-error="{{__('dashboard.name-validation-message')}}"
+                                   autocomplete="off">
                             <div class="help-block with-errors"></div>
                         </div>
                         <!-- email -->
                         <div class="form-group label-floating">
-                            <label class="control-label white" for="email">Email</label>
+                            <label class="control-label white" for="email">@lang('dashboard.email')</label>
                             <input class="form-control white" id="email" type="email" name="email" required
-                                   data-error="{{__('dashboard.email-validation-message')}}">
+                                   data-error="{{__('dashboard.email-validation-message')}}"
+                                   autocomplete="off">
                             <div class="help-block with-errors"></div>
                         </div>
                         <!-- Subject -->
                         <div class="form-group label-floating">
-                            <label class="control-label white">Subject</label>
+                            <label class="control-label white">@lang('dashboard.subject')</label>
                             <input class="form-control white" id="msg_subject" type="text" name="subject" required
-                                   data-error="{{__('dashboard.subject-validation-message')}}">
+                                   data-error="{{__('dashboard.subject-validation-message')}}"
+                                   autocomplete="off">
                             <div class="help-block with-errors"></div>
                         </div>
                         <!-- Message -->
                         <div class="form-group label-floating">
-                            <label for="message" class="control-label white">Message</label>
+                            <label for="message" class="control-label white">@lang('dashboard.message')</label>
                             <textarea class="form-control white" rows="3" id="message" name="message" required
                                       data-error="{{__('dashboard.message-validation-message')}}"></textarea>
                             <div class="help-block with-errors"></div>
                         </div>
+                        <div id="msgSubmit" class="h3 text-center hidden"></div>
+                        <div class="clearfix"></div>
                         <!-- Form Submit -->
                         <div class="form-submit mt-5">
                             <button class="btn btn-common" type="submit" id="form-submit"><i
@@ -748,8 +753,6 @@
                                     </div>
                                 </div>
                             </div>
-                            <div id="msgSubmit" class="h3 text-center hidden"></div>
-                            <div class="clearfix"></div>
                         </div>
                     </form>
                 </div>

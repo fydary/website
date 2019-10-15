@@ -83,5 +83,6 @@ return [
     'download' => '다운로드',
     'contact-form-validation-error' => '양식을 모두 올바르게 기입하였습니까?',
     'contact-form-something-went-wrong' => '잘못되었습니다. 입력 내용을 확인하고 다시 시도하십시오.',
-    'contact-form-success' => '메세지 제출 완료!'
+    'contact-form-success' => '메세지 제출 완료!',
+    'invalid-email-address' => '잘못된 이메일 주소.'
 ];

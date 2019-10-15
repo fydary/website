@@ -13,6 +13,7 @@
     .navbar-brand img {
         padding-top: 8px;
     }
+
     .navbar > .container, .navbar > .container-fluid {
         display: -webkit-box;
     }
@@ -30,7 +31,7 @@
     background-color: #0088cc !important;
 }
 
-.list-item-social{
+.list-item-social {
     width: 30%;
     margin-bottom: 10px;
 }
@@ -47,7 +48,7 @@
     margin-top: 2.5%;
 }
 
-.custom-control-input:checked~.custom-control-label::before {
+.custom-control-input:checked ~ .custom-control-label::before {
     background-color: #9E2064;
     border-color: #9E2064;
 }
@@ -112,4 +113,9 @@
 
 #myTab {
     padding: 0px;
+}
+
+label.error {
+    color: #777 !important;
+    font-size: 13px;
 }

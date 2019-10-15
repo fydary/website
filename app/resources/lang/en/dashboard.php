@@ -83,6 +83,7 @@ return [
     'download' => 'Download',
     'contact-form-validation-error' => 'Did you fill in the form properly?',
     'contact-form-something-went-wrong' => 'Something went wrong. Please check your input and try again.',
-    'contact-form-success' => 'Message Submitted!'
+    'contact-form-success' => 'Message Submitted!',
+    'invalid-email-address' => 'Invalid email address.'
 
 ];

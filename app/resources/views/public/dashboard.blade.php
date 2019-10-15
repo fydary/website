@@ -168,17 +168,17 @@
                     <div class="whitepaper row">
                         <div class="col-sm-12">
                             <h4 class="white whitepaper-title">
-                                GET EXCLUSIVE ACCESS TO FYDARY WHITEPAPER <sup>BETA</sup>
+                                @lang('dashboard.whitepaper-title')
                             </h4>
                             <form action="/downloadWhitepaper" id="whitepaper" method="get">
-                                <input type="email" name="email" id="whitepaper-email" placeholder="Email address"
+                                <input type="email" name="email" id="whitepaper-email" placeholder="{{__('dashboard.email')}}"
                                        class="form-control white">
                                 <small id="email-validation-message" class="white"></small>
                                 @csrf
                                 <br>
                                 <a id="submit-whitepaper" class="animated4 btn btn-common btn-lg"><i
                                         class="material-icons mdi mdi-arrow-collapse-down"></i>
-                                    Download</a>
+                                    @lang('dashboard.download')</a>
                             </form>
                         </div>
                     </div>

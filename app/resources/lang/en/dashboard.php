@@ -78,4 +78,11 @@ return [
     'company-profile' => 'Company Profile',
     'why-choose-us' => 'Why Choose Us',
     'footer-copyright' => '2019 Fydary Incorporated, All right reserved.',
+    'dark-mode' => 'Dark mode',
+    'whitepaper-title' => 'GET EXCLUSIVE ACCESS TO FYDARY WHITEPAPER <sup>BETA</sup>',
+    'download' => 'Download',
+    'contact-form-validation-error' => 'Did you fill in the form properly?',
+    'contact-form-something-went-wrong' => 'Something went wrong. Please check your input and try again.',
+    'contact-form-success' => 'Message Submitted!'
+
 ];

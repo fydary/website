@@ -87,7 +87,7 @@
                     <!-- Rounded switch -->
                     <div class="custom-control custom-switch">
                         <input type="checkbox" class="custom-control-input" id="darkMode">
-                        <label class="custom-control-label dark-mode" for="darkMode">Dark mode</label>
+                        <label class="custom-control-label dark-mode" for="darkMode">@lang('dashboard.dark-mode')</label>
                     </div>
 
                 </div>

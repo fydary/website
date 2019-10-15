@@ -197,5 +197,15 @@
 <script src="assets/js/dark-mode.js"></script>
 {{--<script src="/js/app.js"></script>--}}
 
+@if(session('dark_mode') == 'true')
+    <script>
+        $("#darkMode").prop('checked', true);
+        jQuery('head').append('<link rel="stylesheet" id="darkModeCss" href="assets/css/dark-mode.css" type="text/css" />');
+        $(".custom-icon").each(function (key, icon) {
+            $(icon).attr("src", icon.src.replace("assets/images/icons/", "assets/images/icons/dark_mode/"));
+        });
+    </script>
+@endif
+
 </body>
 </html>

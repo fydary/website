@@ -127,11 +127,11 @@
                 </a>
             </li>
             <li class="slicknav_parent slicknav_open">
-                <span role="menuitem" aria-haspopup="false" tabindex="0" style="outline: none;">
+                <span role="menuitem" aria-haspopup="false" tabindex="0">
                     <span class="flag-icon flag-icon-{{$languages[session('lang')]['code']}}"></span>
                     <span style="color: #666">{{$languages[session('lang')]['title']}}</span>
                 </span>
-                <ul class="slicknav_hidden" role="menu" aria-hidden="true" style="display: none;">
+                <ul class="slicknav_hidden" role="menu" aria-hidden="true">
                     @foreach($languages as $key => $language)
                         @if($key !== session('lang'))
                             <li>
@@ -142,6 +142,12 @@
                         @endif
                     @endforeach
                 </ul>
+            </li>
+            <li style="padding: 5px 10px; margin: 2px 5px;">
+                <div class="custom-control custom-switch">
+                    <input type="checkbox" class="custom-control-input" id="darkMode">
+                    <label class="custom-control-label dark-mode" for="darkMode">@lang('dashboard.dark-mode')</label>
+                </div>
             </li>
         </ul>
         <!-- Mobile Menu End -->

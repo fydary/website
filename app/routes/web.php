@@ -16,3 +16,4 @@ Route::post('/contact', 'ContactController@postContact');
 Route::get('/downloadWhitepaper', 'AppController@downloadWhitepaper');
 Route::get('/changeLanguage', 'AppController@changeLanguage');
 Route::get('/getTranslations', 'AppController@getTranslations');
+Route::post('/changeMode', 'AppController@changeMode');

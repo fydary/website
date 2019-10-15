@@ -102,4 +102,10 @@ class AppController extends Controller
     {
         return response()->json(__('dashboard'));
     }
+
+    public function changeMode(Request $request)
+    {
+        session(['dark_mode' => $request->input('dark_mode')]);
+        return response()->json('ok');
+    }
 }

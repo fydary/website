@@ -4,7 +4,10 @@ section,
 .dropdown-item,
 .Material-tab,
 .nav,
+.slicknav_menu ul,
+.slicknav_nav ul,
 /*.nav-link,*/
+.slicknav_nav li,
 label,
 .tab-content,
 .team-member-info {
@@ -23,7 +26,8 @@ h1,
 .tab-content,
 .team-member-info,
 p,
-.timer {
+.timer,
+.slicknav_parent {
     color: #FFFFFF !important;
 }
 

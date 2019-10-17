@@ -51,39 +51,57 @@
         <div class="row">
             <!--First column-->
             <div class="col-md-6 col-lg-3 col-xl-3">
-                <div class="footer-contact-widget">
-                <h3 class="footer-title">@lang('dashboard.footer-about')</h3>
-                <p>@lang('dashboard.footer-social')</p>
-                <ul class="list-social">
-                    <li class="list-item-social">
-                        <a href="https://twitter.com/fydaryio"><i class="mdi mdi-twitter"></i></a>
-                    </li>
-                    <li class="list-item-social">
-                        <a href="www.facebook.com/fydary/"><i class="mdi mdi-facebook"></i></a>
-                    </li>
-                    <li class="list-item-social">
-                        <a href="www.linkedin.com/company/fydary/about/"><i class="mdi mdi-linkedin"></i></a>
-                    </li>
-                    <li class="list-item-social list-item-social-bottom">
-                        <a href="https://www.reddit.com/r/fydary/"><i class="mdi mdi-reddit icon-reddit"></i></a>
-                    </li>
-                    <li class="list-item-social list-item-social-bottom">
-                        <a href="https://medium.com/@fydary"><i class="mdi mdi-medium icon-medium"></i></a>
-                    </li>
-                    <li class="list-item-social list-item-social-bottom">
-                        <a href="https://t.me/fydary"><i class="mdi mdi-telegram icon-telegram"></i></a>
-                    </li>
-                </ul>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="footer-contact-widget">
+                            <h3 class="footer-title">@lang('dashboard.footer-about')</h3>
+                            <p>@lang('dashboard.footer-social')</p>
+                            <ul class="list-social">
+                                <li class="list-item-social">
+                                    <a href="https://twitter.com/fydaryio" target="_blank"
+                                       rel="noopener noreferrer"><i class="mdi mdi-twitter"></i></a>
+                                </li>
+                                <li class="list-item-social">
+                                    <a href="https://www.facebook.com/fydary/" target="_blank"
+                                       rel="noopener noreferrer"><i class="mdi mdi-facebook"></i></a>
+                                </li>
+                                <li class="list-item-social">
+                                    <a href="https://www.linkedin.com/company/fydary/about/" target="_blank"
+                                       rel="noopener noreferrer"><i
+                                            class="mdi mdi-linkedin"></i></a>
+                                </li>
+                                <li class="list-item-social list-item-social-bottom">
+                                    <a href="https://www.reddit.com/r/fydary/" target="_blank"
+                                       rel="noopener noreferrer"><i
+                                            class="mdi mdi-reddit icon-reddit"></i></a>
+                                </li>
+                                <li class="list-item-social list-item-social-bottom">
+                                    <a href="https://medium.com/@fydary" target="_blank"
+                                       rel="noopener noreferrer"><i class="mdi mdi-medium icon-medium"></i></a>
+                                </li>
+                                <li class="list-item-social list-item-social-bottom">
+                                    <a href="https://t.me/fydary" target="_blank"
+                                       rel="noopener noreferrer"><i class="mdi mdi-telegram icon-telegram"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="widget">
+                            <h5 class="footer-title">@lang('dashboard.useful-links')</h5>
+                            <ul class="unordered-list useful-links">
+                                <li><a href="/terms-and-conditions"
+                                       class="nocolor">@lang('dashboard.terms-of-use')</a></li>
+                                <li><a href="#" class="nocolor">@lang('dashboard.privacy-policy')</a></li>
+                                <li><a href="https://mailchi.mp/fydary/partner" class="nocolor" target="_blank"
+                                       rel="noopener noreferrer">@lang('dashboard.partners')</a></li>
+                                <li><a href="#" class="nocolor">@lang('dashboard.why-choose-us')</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
                 </div>
-                <div class="widget">
-                    <h5 class="footer-title">@lang('dashboard.useful-links')</h5>
-                    <ul class="unordered-list useful-links">
-                        <li><a href="/terms-and-conditions" class="nocolor">@lang('dashboard.terms-of-use')</a></li>
-{{--                        <li><a href="#" class="nocolor">@lang('dashboard.privacy-policy')</a></li>--}}
-                        <li><a href="https://mailchi.mp/fydary/partner" class="nocolor" target="_blank" rel="noopener noreferrer">@lang('dashboard.partners')</a></li>
-{{--                        <li><a href="#" class="nocolor">@lang('dashboard.why-choose-us')</a></li>--}}
-                    </ul>
-                </div>
+
             </div>
             <!--/.First column-->
 
@@ -100,7 +118,8 @@
                                 </figcaption>
                             </figure>
                             <div class="post-content">
-                                <h6 class="post-title"><a href="{{$item['link']}}" target="_blank" rel="noopener noreferrer">{{$item['title']}}</a></h6>
+                                <h6 class="post-title"><a href="{{$item['link']}}" target="_blank"
+                                                          rel="noopener noreferrer">{{$item['title']}}</a></h6>
                                 <div class="meta"><span class="date">{{$item['date']}}</span></div>
                             </div>
                         </li>
@@ -134,7 +153,8 @@
 
             <!--Fourth column-->
             <div class="col-md-6 col-lg-3 col-xl-3">
-                <img src="/img/roadmap.jpg" alt="" data-toggle="modal" data-target="#modal1" style="width: 100%; margin-bottom: 10px; cursor: pointer">
+                <img src="/img/roadmap.jpg" alt="" data-toggle="modal" data-target="#modal1"
+                     style="width: 100%; margin-bottom: 10px; cursor: pointer">
             </div>
             <!--/.Fourth column-->
 

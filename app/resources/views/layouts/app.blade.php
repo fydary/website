@@ -138,13 +138,16 @@
                     <li><i class="mdi mdi-email"></i> <a href="mailto:contact@fydary.io" class="nocolor">contact@fydary.io</a>
                     </li>
                 </ul>
-                <form method="post" id="subscribe-form" name="subscribe-form" class="validate">
+                <form method="post" id="subscribe-form" name="subscribe-form" class="validate" action="javascript:;"
+                      onsubmit="subscribeToNewsletter(this)">
                     <div class="form-group">
-                        <input type="email" value="" name="EMAIL" class="email form-control"
-                               placeholder="{{__('dashboard.email')}}" required="">
+                        <input type="email" value="" name="EMAIL" class="email form-control" id="subscribe-email"
+                               placeholder="{{__('dashboard.email')}}" required>
+                        <div id="subscribe-message" class="h6 hidden"></div>
                         <button type="submit" name="subscribe" id="subscribe" class="btn btn-common pull-right">
                             @lang('dashboard.join')
                         </button>
+
                         <div class="clearfix"></div>
                     </div>
                 </form>

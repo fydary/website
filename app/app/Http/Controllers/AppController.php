@@ -131,4 +131,11 @@ class AppController extends Controller
         session(['dark_mode' => $request->input('dark_mode')]);
         return response()->json('ok');
     }
+
+    public function subscribe(Request $request)
+    {
+        Newsletter::subscribe($request->input('email'));
+
+        return response()->json('ok');
+    }
 }

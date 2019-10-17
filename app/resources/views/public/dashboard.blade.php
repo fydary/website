@@ -516,7 +516,7 @@
                 </div>
                 <div class="col-md-6 col-lg-3 col-xl-3 wow animated fadeInUp" data-wow-delay=".5s">
                     <div class="single-team-widget">
-                        <img src="img/mosthandsomeguy.jpg" class="img-fluid" alt="">
+                        <img src="img/mosthandsomeguy.jpg" class="img-fluid" alt="" title="Most Handsome Guy">
                         <div class="team-member-info">
                             {{--                            <div class="know-more">--}}
                             {{--                                <a class="btn btn-round btn-fab btn-xs" href="javascript:void(0)"><i--}}
@@ -524,7 +524,7 @@
                             {{--                                    <div class="ripple-container"></div>--}}
                             {{--                                </a>--}}
                             {{--                            </div>--}}
-                            <h2 class="subtitle">Markus Shcäfer</h2>
+                            <h2 class="subtitle">Markus Schäfer</h2>
                             <p>German Marketing Specialist</p>
                             <div class="social-profiles">
                                 {{--                                <a href="#"><i class="mdi mdi-twitter"></i></a>--}}

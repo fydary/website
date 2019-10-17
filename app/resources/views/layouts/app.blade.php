@@ -92,10 +92,8 @@
                             <ul class="unordered-list useful-links">
                                 <li><a href="/terms-and-conditions"
                                        class="nocolor">@lang('dashboard.terms-of-use')</a></li>
-                                <li><a href="#" class="nocolor">@lang('dashboard.privacy-policy')</a></li>
                                 <li><a href="https://mailchi.mp/fydary/partner" class="nocolor" target="_blank"
                                        rel="noopener noreferrer">@lang('dashboard.partners')</a></li>
-                                <li><a href="#" class="nocolor">@lang('dashboard.why-choose-us')</a></li>
                             </ul>
                         </div>
                     </div>

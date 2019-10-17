@@ -172,7 +172,7 @@
                             </h4>
                             <form action="/downloadWhitepaper" id="whitepaper" method="get">
                                 <input type="email" name="email" id="whitepaper-email" placeholder="{{__('dashboard.email')}}"
-                                       class="form-control white">
+                                       class="form-control white" data-error="{{__('dashboard.invalid-email-address')}}">
                                 <small id="email-validation-message" class="white"></small>
                                 @csrf
                                 <br>

@@ -212,7 +212,7 @@ $(document).ready(function () {
             $("#email-validation-message").html("");
             $("#whitepaper").submit();
         } else {
-            $("#email-validation-message").html("Invalid email address.");
+            $("#email-validation-message").html($('#whitepaper-email').data('error'));
         }
     })
 });

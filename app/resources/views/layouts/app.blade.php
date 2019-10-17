@@ -95,12 +95,12 @@
                         <li>
                             <figure class="overlay">
                                 <img class="img-fluid" src="{{$item['thumbnail']}}" alt="">
-                                <figcaption><a href="{{$item['link']}}"><i
+                                <figcaption><a href="{{$item['link']}}" target="_blank" rel="noopener noreferrer"><i
                                             class="mdi mdi-link-variant from-top icon-xs"></i></a>
                                 </figcaption>
                             </figure>
                             <div class="post-content">
-                                <h6 class="post-title"><a href="{{$item['link']}}">{{$item['title']}}</a></h6>
+                                <h6 class="post-title"><a href="{{$item['link']}}" target="_blank" rel="noopener noreferrer">{{$item['title']}}</a></h6>
                                 <div class="meta"><span class="date">{{$item['date']}}</span></div>
                             </div>
                         </li>
@@ -134,7 +134,7 @@
 
             <!--Fourth column-->
             <div class="col-md-6 col-lg-3 col-xl-3">
-                <img src="/img/roadmap.jpg" alt="" data-toggle="modal" data-target="#modal1" style="width: 100%; margin-bottom: 10px">
+                <img src="/img/roadmap.jpg" alt="" data-toggle="modal" data-target="#modal1" style="width: 100%; margin-bottom: 10px; cursor: pointer">
             </div>
             <!--/.Fourth column-->
 

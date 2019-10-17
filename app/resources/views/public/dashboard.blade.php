@@ -284,48 +284,48 @@
 
 
     <!-- work-counter area -->
-    <section class="work-counter-section section-padding" id="partners">
-        <div class="container">
-            <div class="row">
-                <!-- Single Counter -->
-                <div class="col-md-3 col-sm-6 work-counter-widget text-center wow animated fadeInUp"
-                     data-wow-delay=".2s">
-                    <div class="counter">
-                        <div class="icons_new"><img src="assets/images/icons/partnersicon.png" class="custom-icon" alt=""></div>
-                        <div class="timer">5</div>
-                        <p>@lang('dashboard.counter-1')</p>
-                    </div>
-                </div>
-                <!-- Single Counter -->
-                <div class="col-md-3 col-sm-6 work-counter-widget text-center wow animated fadeInUp"
-                     data-wow-delay=".3s">
-                    <div class="counter">
-                        <div class="icons_new"><img src="assets/images/icons/projectsicon.png" class="custom-icon" alt=""></div>
-                        <div class="timer">27</div>
-                        <p>@lang('dashboard.counter-2')</p>
-                    </div>
-                </div>
-                <!-- Single Counter -->
-                <div class="col-md-3 col-sm-6 work-counter-widget text-center wow animated fadeInUp"
-                     data-wow-delay=".4s">
-                    <div class="counter">
-                        <div class="icons_new"><img src="assets/images/icons/teammembersicon.png" class="custom-icon" alt=""></div>
-                        <div class="timer">35</div>
-                        <p>@lang('dashboard.counter-3')</p>
-                    </div>
-                </div>
-                <!-- Single Counter -->
-                <div class="col-md-3 col-sm-6 work-counter-widget text-center wow animated fadeInUp"
-                     data-wow-delay=".5s">
-                    <div class="counter">
-                        <div class="icons_new"><img src="assets/images/icons/usersicon.png" class="custom-icon" alt=""></div>
-                        <div class="timer">5478</div>
-                        <p>@lang('dashboard.counter-4')</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+{{--    <section class="work-counter-section section-padding">--}}
+{{--        <div class="container">--}}
+{{--            <div class="row">--}}
+{{--                <!-- Single Counter -->--}}
+{{--                <div class="col-md-3 col-sm-6 work-counter-widget text-center wow animated fadeInUp"--}}
+{{--                     data-wow-delay=".2s">--}}
+{{--                    <div class="counter">--}}
+{{--                        <div class="icons_new"><img src="assets/images/icons/partnersicon.png" class="custom-icon" alt=""></div>--}}
+{{--                        <div class="timer">5</div>--}}
+{{--                        <p>@lang('dashboard.counter-1')</p>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <!-- Single Counter -->--}}
+{{--                <div class="col-md-3 col-sm-6 work-counter-widget text-center wow animated fadeInUp"--}}
+{{--                     data-wow-delay=".3s">--}}
+{{--                    <div class="counter">--}}
+{{--                        <div class="icons_new"><img src="assets/images/icons/projectsicon.png" class="custom-icon" alt=""></div>--}}
+{{--                        <div class="timer">27</div>--}}
+{{--                        <p>@lang('dashboard.counter-2')</p>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <!-- Single Counter -->--}}
+{{--                <div class="col-md-3 col-sm-6 work-counter-widget text-center wow animated fadeInUp"--}}
+{{--                     data-wow-delay=".4s">--}}
+{{--                    <div class="counter">--}}
+{{--                        <div class="icons_new"><img src="assets/images/icons/teammembersicon.png" class="custom-icon" alt=""></div>--}}
+{{--                        <div class="timer">35</div>--}}
+{{--                        <p>@lang('dashboard.counter-3')</p>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <!-- Single Counter -->--}}
+{{--                <div class="col-md-3 col-sm-6 work-counter-widget text-center wow animated fadeInUp"--}}
+{{--                     data-wow-delay=".5s">--}}
+{{--                    <div class="counter">--}}
+{{--                        <div class="icons_new"><img src="assets/images/icons/usersicon.png" class="custom-icon" alt=""></div>--}}
+{{--                        <div class="timer">5478</div>--}}
+{{--                        <p>@lang('dashboard.counter-4')</p>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </section>--}}
     <!-- work-counter area end -->
 
     <!-- Our Team Section -->
@@ -562,7 +562,7 @@
     <!-- Our Team Section End -->
 
     <!-- Start Testimonial Section  -->
-    {{--    <div class="testimonial section-padding">--}}
+    {{--    <div class="testimonial section-padding"  id="partners">--}}
     {{--        <div class="container">--}}
     {{--            <div class="row">--}}
     {{--                <!-- Testimonial section  -->--}}

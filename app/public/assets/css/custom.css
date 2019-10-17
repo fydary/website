@@ -119,3 +119,15 @@ label.error {
     color: #777 !important;
     font-size: 13px;
 }
+
+.full-width {
+    width: 100%;
+}
+
+.useful-links {
+    display: grid;
+}
+
+.list-item-social-bottom {
+    margin-bottom: 20px;
+}

@@ -47,10 +47,11 @@
 <!--Footer-->
 <footer class="page-footer center-on-small-only  pt-0 footer-widget-container">
     <!--Footer Links-->
-    <div class="container pt-5 mb-5">
+    <div class="container pt-5 mb-5¸footer-container">
         <div class="row">
             <!--First column-->
-            <div class="col-md-6 col-lg-3 col-xl-3 footer-contact-widget">
+            <div class="col-md-6 col-lg-3 col-xl-3">
+                <div class="footer-contact-widget">
                 <h3 class="footer-title">@lang('dashboard.footer-about')</h3>
                 <p>@lang('dashboard.footer-social')</p>
                 <ul class="list-social">
@@ -63,16 +64,26 @@
                     <li class="list-item-social">
                         <a href="www.linkedin.com/company/fydary/about/"><i class="mdi mdi-linkedin"></i></a>
                     </li>
-                    <li class="list-item-social">
+                    <li class="list-item-social list-item-social-bottom">
                         <a href="https://www.reddit.com/r/fydary/"><i class="mdi mdi-reddit icon-reddit"></i></a>
                     </li>
-                    <li class="list-item-social">
+                    <li class="list-item-social list-item-social-bottom">
                         <a href="https://medium.com/@fydary"><i class="mdi mdi-medium icon-medium"></i></a>
                     </li>
-                    <li class="list-item-social">
+                    <li class="list-item-social list-item-social-bottom">
                         <a href="https://t.me/fydary"><i class="mdi mdi-telegram icon-telegram"></i></a>
                     </li>
                 </ul>
+                </div>
+                <div class="widget">
+                    <h5 class="footer-title">@lang('dashboard.useful-links')</h5>
+                    <ul class="unordered-list useful-links">
+                        <li><a href="#" class="nocolor">@lang('dashboard.terms-of-use')</a></li>
+                        <li><a href="#" class="nocolor">@lang('dashboard.privacy-policy')</a></li>
+                        <li><a href="#" class="nocolor">@lang('dashboard.partners')</a></li>
+{{--                        <li><a href="#" class="nocolor">@lang('dashboard.why-choose-us')</a></li>--}}
+                    </ul>
+                </div>
             </div>
             <!--/.First column-->
 
@@ -108,36 +119,22 @@
                     <li><i class="mdi mdi-email"></i> <a href="mailto:contact@fydary.io" class="nocolor">contact@fydary.io</a>
                     </li>
                 </ul>
+                <form method="post" id="subscribe-form" name="subscribe-form" class="validate">
+                    <div class="form-group">
+                        <input type="email" value="" name="EMAIL" class="email form-control"
+                               placeholder="{{__('dashboard.email')}}" required="">
+                        <button type="submit" name="subscribe" id="subscribe" class="btn btn-common pull-right">
+                            @lang('dashboard.join')
+                        </button>
+                        <div class="clearfix"></div>
+                    </div>
+                </form>
             </div>
             <!--/.Third column-->
 
             <!--Fourth column-->
-            <div class="col-md-6 col-lg-3 col-xl-3 footer-contact">
-                <h3 class="footer-title">@lang('dashboard.subscribe')</h3>
-                <div class="widget">
-                    <div class="newsletter-wrapper">
-                        <form method="post" id="subscribe-form" name="subscribe-form" class="validate">
-                            <div class="form-group">
-                                <input type="email" value="" name="EMAIL" class="email form-control"
-                                       placeholder="{{__('dashboard.email')}}" required="">
-                                <button type="submit" name="subscribe" id="subscribe" class="btn btn-common pull-right">
-                                    @lang('dashboard.join')
-                                </button>
-                                <div class="clearfix"></div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                <!-- /.widget -->
-                <div class="widget">
-                    <h5 class="widget-title">@lang('dashboard.useful-links')</h5>
-                    <ul class="unordered-list">
-                        <li><a href="#" class="nocolor">@lang('dashboard.terms-of-use')</a></li>
-                        <li><a href="#" class="nocolor">@lang('dashboard.privacy-policy')</a></li>
-                        <li><a href="#" class="nocolor">@lang('dashboard.company-profile')</a></li>
-                        <li><a href="#" class="nocolor">@lang('dashboard.why-choose-us')</a></li>
-                    </ul>
-                </div>
+            <div class="col-md-6 col-lg-3 col-xl-3">
+                <img src="/img/roadmap.jpg" alt="" data-toggle="modal" data-target="#modal1" style="width: 100%">
             </div>
             <!--/.Fourth column-->
 

@@ -561,6 +561,7 @@
     </section>
     <!-- Our Team Section End -->
 
+
     <!-- Start Testimonial Section  -->
     {{--    <div class="testimonial section-padding"  id="partners">--}}
     {{--        <div class="container">--}}
@@ -672,7 +673,6 @@
     {{--    </div>--}}
     <!-- End Client Section -->
 
-
     <!-- Contact Us Section -->
     <section class="Material-contact-section section-padding section-dark contact-image1" id="contact">
         <div class="container contact-section">
@@ -760,4 +760,21 @@
         </div>
     </section>
     <!-- Contact Us Section End -->
+
+    <!--Modal: Name-->
+    <div class="modal fade" id="modal1" tabindex="-2" role="dialog" aria-labelledby="roadmap" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <!--Content-->
+            <div class="modal-content">
+                <!--Body-->
+                <div class="modal-body">
+
+                        <img src="/img/roadmap.jpg" alt="roadmap" class="full-width">
+                </div>
+                <!--Footer-->
+            </div>
+            <!--/.Content-->
+        </div>
+    </div>
+    <!--Modal: Name-->
 @endsection

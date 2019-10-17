@@ -12,6 +12,7 @@
 */
 
 Route::get('/', 'AppController@home');
+Route::get('/terms-and-conditions', 'AppController@termsAndConditions');
 Route::post('/contact', 'ContactController@postContact');
 Route::get('/downloadWhitepaper', 'AppController@downloadWhitepaper');
 Route::get('/changeLanguage', 'AppController@changeLanguage');

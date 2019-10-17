@@ -78,9 +78,9 @@
                 <div class="widget">
                     <h5 class="footer-title">@lang('dashboard.useful-links')</h5>
                     <ul class="unordered-list useful-links">
-                        <li><a href="#" class="nocolor">@lang('dashboard.terms-of-use')</a></li>
-                        <li><a href="#" class="nocolor">@lang('dashboard.privacy-policy')</a></li>
-                        <li><a href="#" class="nocolor">@lang('dashboard.partners')</a></li>
+                        <li><a href="/terms-and-conditions" class="nocolor">@lang('dashboard.terms-of-use')</a></li>
+{{--                        <li><a href="#" class="nocolor">@lang('dashboard.privacy-policy')</a></li>--}}
+                        <li><a href="https://mailchi.mp/fydary/partner" class="nocolor" target="_blank" rel="noopener noreferrer">@lang('dashboard.partners')</a></li>
 {{--                        <li><a href="#" class="nocolor">@lang('dashboard.why-choose-us')</a></li>--}}
                     </ul>
                 </div>
@@ -134,7 +134,7 @@
 
             <!--Fourth column-->
             <div class="col-md-6 col-lg-3 col-xl-3">
-                <img src="/img/roadmap.jpg" alt="" data-toggle="modal" data-target="#modal1" style="width: 100%">
+                <img src="/img/roadmap.jpg" alt="" data-toggle="modal" data-target="#modal1" style="width: 100%; margin-bottom: 10px">
             </div>
             <!--/.Fourth column-->
 
@@ -170,6 +170,23 @@
     <div class="loader" id="loader-1"></div>
 </div>
 <!-- End Preloader -->
+
+<!--Modal: Name-->
+<div class="modal fade" id="modal1" tabindex="-2" role="dialog" aria-labelledby="roadmap" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <!--Content-->
+        <div class="modal-content">
+            <!--Body-->
+            <div class="modal-body">
+
+                <img src="/img/roadmap.jpg" alt="roadmap" class="full-width">
+            </div>
+            <!--Footer-->
+        </div>
+        <!--/.Content-->
+    </div>
+</div>
+<!--Modal: Name-->
 
 <!-- Optional JavaScript -->
 <script src="assets/js/jquery-min.js"></script>

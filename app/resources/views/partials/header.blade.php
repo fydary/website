@@ -11,44 +11,44 @@
                     <span class="mdi mdi-menu"></span>
                     <span class="mdi mdi-menu"></span>
                 </button>
-                <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt=""></a>
+                <a class="navbar-brand" href="/"><img src="assets/images/logo.png" alt=""></a>
             </div>
             <div class="collapse navbar-collapse" id="main-navbar">
                 <ul class="navbar-nav mr-auto w-100 justify-content-end">
                     <li class="nav-item">
-                        <a class="nav-link scroll-link" href="#home">
+                        <a class="nav-link {{$terms ? '' : 'scroll-link'}}" href="{{$terms ? '/' : '#home'}}">
                             @lang('dashboard.home')
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link scroll-link" href="#about">
+                        <a class="nav-link {{$terms ? '' : 'scroll-link'}}" href="{{$terms ? '/' : '#about'}}">
                             @lang('dashboard.about')
                         </a>
 
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link scroll-link" href="#industry">
+                        <a class="nav-link {{$terms ? '' : 'scroll-link'}}" href="{{$terms ? '/' : '#industry'}}">
                             @lang('dashboard.industry')
                         </a>
                     </li>
 {{--                    <li class="nav-item">--}}
-{{--                        <a class="nav-link scroll-link" href="#partners">--}}
+{{--                        <a class="nav-link {{$terms ? '' : 'scroll-link'}}" href="{{$terms ? '/' : '#partners'}}">--}}
 {{--                            @lang('dashboard.partners')--}}
 {{--                        </a>--}}
 {{--                    </li>--}}
                     <li class="nav-item">
-                        <a class="nav-link scroll-link" href="#team">
+                        <a class="nav-link {{$terms ? '' : 'scroll-link'}}" href="{{$terms ? '/' : '#team'}}">
                             @lang('dashboard.team')
                         </a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link scroll-link" href="#contact">
+                        <a class="nav-link {{$terms ? '' : 'scroll-link'}}" href="{{$terms ? '/' : '#contact'}}">
                             @lang('dashboard.contact')
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link scroll-link btn btn-common btn-sm btn-whitepaper" href="#whitepaper-section">
+                        <a class="nav-link btn btn-common btn-sm btn-whitepaper {{$terms ? '' : 'scroll-link'}}" href="{{$terms ? '/' : '#whitepaper-section'}}">
                             @lang('dashboard.whitepaper')
                         </a>
                     </li>
@@ -94,35 +94,36 @@
 
             </div>
         </div>
-        <!-- Mobile Menu Start -->
+
+    <!-- Mobile Menu Start -->
         <ul class="wpb-mobile-menu">
             <li>
-                <a class="nav-link scroll-link" href="#home">
+                <a class="nav-link {{$terms ? '' : 'scroll-link'}}" href="{{$terms ? '/' : '#home'}}">
                     @lang('dashboard.home')
                 </a>
             </li>
             <li>
-                <a class="nav-link scroll-link" href="#about">
+                <a class="nav-link {{$terms ? '' : 'scroll-link'}}" href="{{$terms ? '/' : '#about'}}">
                     @lang('dashboard.about')
                 </a>
             </li>
             <li>
-                <a class="nav-link scroll-link" href="#industry">
+                <a class="nav-link {{$terms ? '' : 'scroll-link'}}" href="{{$terms ? '/' : '#industry'}}">
                     @lang('dashboard.industry')
                 </a>
             </li>
 {{--            <li>--}}
-{{--                <a class="nav-link scroll-link" href="#partners">--}}
+{{--                <a class="nav-link {{$terms ? '' : 'scroll-link'}}" href="{{$terms ? '/' : '#partners'}}">--}}
 {{--                    @lang('dashboard.partners')--}}
 {{--                </a>--}}
 {{--            </li>--}}
             <li>
-                <a class="nav-link scroll-link" href="#team">
+                <a class="nav-link {{$terms ? '' : 'scroll-link'}}" href="{{$terms ? '/' : '#team'}}">
                     @lang('dashboard.team')
                 </a>
             </li>
             <li>
-                <a class="nav-link scroll-link" href="#contact">
+                <a class="nav-link {{$terms ? '' : 'scroll-link'}}" href="{{$terms ? '/' : '#contact'}}">
                     @lang('dashboard.contact')
                 </a>
             </li>

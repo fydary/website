@@ -189,6 +189,7 @@
 
     $('a.scroll-link').on('click', function (e) {
         e.preventDefault();
+        $(this).tooltip('hide');
         scroll_to($(this), $('nav').outerHeight());
     });
 

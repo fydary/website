@@ -363,7 +363,7 @@
                 <!-- Single Team Widget -->
                 <div class="col-md-6 col-lg-3 col-xl-3 wow animated fadeInUp" data-wow-delay=".4s">
                     <div class="single-team-widget">
-                        <img src="img/joshuaprofileimage.jpg" class="img-fluid" alt="">
+                        <img src="img/joshprofileimage.jpg" class="img-fluid" alt="">
                         <div class="team-member-info">
                             {{--                            <div class="know-more">--}}
                             {{--                                <a class="btn btn-round btn-fab btn-xs" href="javascript:void(0)"><i--}}
@@ -386,7 +386,7 @@
                 <!-- Single Team Widget -->
                 <div class="col-md-6 col-lg-3 col-xl-3 wow animated fadeInUp" data-wow-delay=".6s">
                     <div class="single-team-widget">
-                        <img src="img/peterprofileimage.jpeg" class="img-fluid" alt="">
+                        <img src="img/peterprofileimage.jpg" class="img-fluid" alt="">
                         <div class="team-member-info">
                             {{--                            <div class="know-more">--}}
                             {{--                                <a class="btn btn-round btn-fab btn-xs" href="javascript:void(0)"><i--}}

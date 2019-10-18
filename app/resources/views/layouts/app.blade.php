@@ -17,7 +17,7 @@
     <!-- Material CSS -->
     <link rel="stylesheet" href="assets/css/material.min.css">
     <!-- Ripples CSS -->
-    <link rel="stylesheet" href="assets/css/ripples.min.css">
+{{--    <link rel="stylesheet" href="assets/css/ripples.min.css">--}}
     <!-- Owl Carousel CSS -->
     <link rel="stylesheet" href="assets/css/owl.carousel.css">
     <!-- Magnific Popup -->
@@ -29,7 +29,7 @@
     <!-- Style CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- Responsive CSS -->
-    <link rel="stylesheet" href="assets/css/responsive.css">
+{{--    <link rel="stylesheet" href="assets/css/responsive.css">--}}
     <!-- Flag icons-->
     <link rel="stylesheet" href="flag-icon-css/css/flag-icon.min.css">
     <!-- Color CSS Styles  -->
@@ -211,19 +211,19 @@
 
 <!-- Optional JavaScript -->
 <script src="assets/js/jquery-min.js"></script>
-<script src="assets/js/popper.min.js"></script>
+{{--<script src="assets/js/popper.min.js"></script>--}}
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/jquery.mixitup.min.js"></script>
-<script src="assets/js/jquery.inview.js"></script>
-<script src="assets/js/jquery.counterup.min.js"></script>
+{{--<script src="assets/js/jquery.inview.js"></script>--}}
+{{--<script src="assets/js/jquery.counterup.min.js"></script>--}}
 <script src="assets/js/scroll-top.js"></script>
 <script src="assets/js/smoothscroll.js"></script>
 <script src="assets/js/material.min.js"></script>
-<script src="assets/js/ripples.min.js"></script>
+{{--<script src="assets/js/ripples.min.js"></script>--}}
 <script src="assets/js/owl.carousel.min.js"></script>
 {{--<script src="assets/js/form-validator.min.js"></script>--}}
 <script src="assets/js/wow.js"></script>
-<script src="assets/js/jquery.vide.js"></script>
+{{--<script src="assets/js/jquery.vide.js"></script>--}}
 <script src="assets/js/jquery.magnific-popup.min.js"></script>
 <script src="assets/js/jquery.slicknav.js"></script>
 <script src="assets/js/jquery-validation.min.js"></script>

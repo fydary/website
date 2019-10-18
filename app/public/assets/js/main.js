@@ -198,7 +198,7 @@ function scroll_to(clicked_link, nav_height) {
     var element_id = clicked_link.attr('href');
     var scroll_to = 0;
     if (element_id !== '#home') {
-        scroll_to = $(element_id).offset().top - nav_height;
+        scroll_to = $(element_id).offset().top - nav_height + 1;
     }
     if ($(window).scrollTop() != scroll_to) {
         $('html, body').stop().animate({scrollTop: scroll_to}, 1000);

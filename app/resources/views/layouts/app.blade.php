@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="assets/css/material.min.css">
     <!-- Ripples CSS -->
 {{--    <link rel="stylesheet" href="assets/css/ripples.min.css">--}}
-    <!-- Owl Carousel CSS -->
+<!-- Owl Carousel CSS -->
     <link rel="stylesheet" href="assets/css/owl.carousel.css">
     <!-- Magnific Popup -->
     <link rel="stylesheet" href="assets/css/magnific-popup.css">
@@ -30,7 +30,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- Responsive CSS -->
 {{--    <link rel="stylesheet" href="assets/css/responsive.css">--}}
-    <!-- Flag icons-->
+<!-- Flag icons-->
     <link rel="stylesheet" href="flag-icon-css/css/flag-icon.min.css">
     <!-- Color CSS Styles  -->
     <link rel="stylesheet" type="text/css" href="assets/css/colors/indigo.css" media="screen"/>
@@ -40,6 +40,19 @@
 
 </head>
 <body>
+<div id="sticky-sidebar" style="background: black">
+    <div class="bottom">
+        <a href="#" id="dark-mode" class="settings sidebar-btn" data-toggle="tooltip"
+           data-placement="right" title="{{__('dashboard.dark-mode')}}"
+            data-dark-mode="{{session('dark_mode')}}">
+            <i class="mdi mdi-theme-light-dark material-icons white"></i>
+        </a>
+        <a href="#whitepaper-section" class="settings sidebar-btn scroll-link" data-toggle="tooltip" data-placement="right" title="{{__('dashboard.whitepaper')}}"
+            style="top: 41px">
+            <i class="mdi mdi-file-document material-icons white"></i>
+        </a>
+    </div>
+</div>
 @include('partials.header')
 <div id="app">
     @yield('content')
@@ -211,7 +224,7 @@
 
 <!-- Optional JavaScript -->
 <script src="assets/js/jquery-min.js"></script>
-{{--<script src="assets/js/popper.min.js"></script>--}}
+<script src="assets/js/popper.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/jquery.mixitup.min.js"></script>
 {{--<script src="assets/js/jquery.inview.js"></script>--}}
@@ -234,13 +247,17 @@
 
 @if(session('dark_mode') == 'true')
     <script>
-        $("#darkMode").prop('checked', true);
+        // $("#darkMode").prop('checked', true);
         jQuery('head').append('<link rel="stylesheet" id="darkModeCss" href="assets/css/dark-mode.css" type="text/css" />');
         $(".custom-icon").each(function (key, icon) {
             $(icon).attr("src", icon.src.replace("assets/images/icons/", "assets/images/icons/dark_mode/"));
         });
     </script>
 @endif
-
+<script>
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
+</script>
 </body>
 </html>

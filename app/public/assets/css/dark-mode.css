@@ -10,7 +10,8 @@ section,
 .slicknav_nav li,
 label,
 .tab-content,
-.team-member-info {
+.team-member-info,
+.slicknav_arrow {
     background-color: #1B0D3C !important;
 }
 
@@ -20,6 +21,7 @@ section,
 .Material-tab,
 .nav,
 .nav-link,
+.Material-tab ul.nav.nav-tabs .nav-item .nav-link,
 label,
 h1,
 h3,
@@ -28,11 +30,14 @@ h3,
 .team-member-info,
 p,
 .timer,
-.slicknav_parent {
+.slicknav_parent,
+.language-selection,
+.slicknav_arrow{
     color: #FFFFFF !important;
 }
 
 #myTab,
+.slicknav_arrow,
 .tab-content,
 .whitepaper,
 .single-team-widget{

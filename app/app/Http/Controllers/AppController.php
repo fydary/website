@@ -67,6 +67,8 @@ class AppController extends Controller
         view()->share('languages', $this->languages);
         view()->share('terms', 1);
 
+        $ip = $request->ip();
+        dd(geoip($ip));
         $data = [
             'ip' => $request->ip(),
             'user_agent' => $request->headers->get('user_agent'),

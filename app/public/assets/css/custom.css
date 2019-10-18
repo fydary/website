@@ -131,3 +131,7 @@ label.error {
 .list-item-social-bottom {
     margin-bottom: 20px;
 }
+
+.static-carousel-image{
+    background-image: url('/img/SlideStarEffect_1.gif');
+}

@@ -177,7 +177,8 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
-        willvincent\Feeds\FeedsServiceProvider::class
+        willvincent\Feeds\FeedsServiceProvider::class,
+        \Torann\GeoIP\GeoIPServiceProvider::class,
     ],
 
     /*
@@ -230,7 +231,7 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
 
         'Feeds' => willvincent\Feeds\Facades\FeedsFacade::class,
-
+        'GeoIP' => \Torann\GeoIP\Facades\GeoIP::class,
     ],
 
 ];

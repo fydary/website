@@ -9,8 +9,7 @@
                 <li data-target="#main-slide" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner">
-                <div class="static-carousel-image"
-                     style="background-image: url('assets/images/SlideStarEffect_1.gif');">
+                <div class="static-carousel-image">
                     <div class="carousel-item active">
                         <!-- <img class="d-block w-100" src="assets/images/slider/slider-bg1.jpeg" alt="First slide"> -->
                         <div class="carousel-caption d-md-block">

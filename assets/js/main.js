@@ -4,7 +4,7 @@
 
     $(window).on('load', function () {
 
-        $(".static-carousel-image").css("background-image", "url('assets/images/SlideStarEffect_2.gif')");
+        $(".static-carousel-image").css("background-image", "url('/img/SlideStarEffect_2.gif')");
         // Material
         $.material.init();
 

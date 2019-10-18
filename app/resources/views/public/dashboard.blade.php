@@ -113,7 +113,7 @@
     <!-- About Section End -->
 
     <!-- Welcome Section Start -->
-    <section class="welcome-section section-padding section-dark" id="whitepaper-section">
+    <section class="welcome-section section-padding section-dark">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-lg-7 col-xs-12">
@@ -163,7 +163,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-12 col-lg-5 col-xs-12">
+                <div class="col-md-12 col-lg-5 col-xs-12" id="whitepaper-section">
                     <div class="whitepaper row">
                         <div class="col-sm-12">
                             <h4 class="white whitepaper-title">

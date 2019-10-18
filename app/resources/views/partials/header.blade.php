@@ -83,14 +83,14 @@
             {{--                                </div>--}}
             {{--                            </form>--}}
             <!-- Search Box End -->
-                <div class="header-actions">
-                    <!-- Rounded switch -->
-                    <div class="custom-control custom-switch">
-                        <input type="checkbox" class="custom-control-input" id="darkMode">
-                        <label class="custom-control-label dark-mode" for="darkMode">@lang('dashboard.dark-mode')</label>
-                    </div>
+{{--                <div class="header-actions">--}}
+{{--                    <!-- Rounded switch -->--}}
+{{--                    <div class="custom-control custom-switch">--}}
+{{--                        <input type="checkbox" class="custom-control-input" id="darkMode">--}}
+{{--                        <label class="custom-control-label dark-mode" for="darkMode">@lang('dashboard.dark-mode')</label>--}}
+{{--                    </div>--}}
 
-                </div>
+{{--                </div>--}}
 
             </div>
         </div>
@@ -130,26 +130,26 @@
             <li class="slicknav_parent slicknav_open">
                 <span role="menuitem" aria-haspopup="false" tabindex="0">
                     <span class="flag-icon flag-icon-{{$languages[session('lang')]['code']}}"></span>
-                    <span style="color: #666">{{$languages[session('lang')]['title']}}</span>
+                    <span style="color: #666" class="language-selection">{{$languages[session('lang')]['title']}}</span>
                 </span>
                 <ul class="slicknav_hidden" role="menu" aria-hidden="true">
                     @foreach($languages as $key => $language)
                         @if($key !== session('lang'))
                             <li>
-                                <a href="/changeLanguage?lang={{$key}}" role="menuitem" tabindex="-1"><span
-                                        class="flag-icon flag-icon-{{$language['code']}}"> </span> {{$language['title']}}
+                                <a href="/changeLanguage?lang={{$key}}" role="menuitem" tabindex="-1" class="language-selection">
+                                    <span class="flag-icon flag-icon-{{$language['code']}}"> </span> {{$language['title']}}
                                 </a>
                             </li>
                         @endif
                     @endforeach
                 </ul>
             </li>
-            <li style="padding: 5px 10px; margin: 2px 5px;">
-                <div class="custom-control custom-switch">
-                    <input type="checkbox" class="custom-control-input" id="darkMode">
-                    <label class="custom-control-label dark-mode" for="darkMode">@lang('dashboard.dark-mode')</label>
-                </div>
-            </li>
+{{--            <li style="padding: 5px 10px; margin: 2px 5px;">--}}
+{{--                <div class="custom-control custom-switch">--}}
+{{--                    <input type="checkbox" class="custom-control-input" id="darkMode">--}}
+{{--                    <label class="custom-control-label dark-mode" for="darkMode">@lang('dashboard.dark-mode')</label>--}}
+{{--                </div>--}}
+{{--            </li>--}}
         </ul>
         <!-- Mobile Menu End -->
     </nav>

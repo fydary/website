@@ -135,3 +135,60 @@ label.error {
 .static-carousel-image{
     background-image: url('/img/SlideStarEffect_1.gif');
 }
+
+@media screen and (min-width: 768px) {
+
+    #sticky-sidebar {
+        text-align: center;
+        background-color: rgba(0, 0, 0, .8);
+        border-radius: 0 0 3px;
+        left: -190px;
+        padding: 11px 0;
+        position: fixed;
+        top: 170px;
+        width: 190px;
+        z-index: 9999;
+    }
+
+    #sticky-sidebar .bottom a.sidebar-btn {
+        background-color: rgba(0, 0, 0, .8);
+        border-radius: 0 3px 3px 0;
+        display: block;
+        font-size: 12px;
+        height: 40px;
+        line-height: 40px;
+        position: absolute;
+        right: -40px;
+        text-align: center;
+        top: 0;
+        width: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #sticky-sidebar {
+        text-align: center;
+        background-color: rgba(0, 0, 0, .8);
+        border-radius: 0 0 3px;
+        right: -190px;
+        padding: 11px 0;
+        position: fixed;
+        top: 420px;
+        width: 190px;
+        z-index: 9999;
+    }
+
+    #sticky-sidebar .bottom a.sidebar-btn {
+        background-color: rgba(0, 0, 0, .8);
+        border-radius: 0 3px 3px 0;
+        display: block;
+        font-size: 12px;
+        height: 40px;
+        line-height: 40px;
+        position: absolute;
+        left: -40px;
+        text-align: center;
+        top: 0;
+        width: 40px;
+    }
+}

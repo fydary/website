@@ -1,6 +1,7 @@
 $(document).ready(function () {
     $('#dark-mode').on('click', function (e) {
         e.preventDefault();
+        $(this).tooltip('hide');
         let isDarkModeOn = $(this).data('dark-mode');
         if (!isDarkModeOn) {
             jQuery('head').append('<link rel="stylesheet" id="darkModeCss" href="assets/css/dark-mode.css" type="text/css" />');

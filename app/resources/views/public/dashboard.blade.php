@@ -354,7 +354,8 @@
                                 {{--                                <a href="#"><i class="mdi mdi-twitter"></i></a>--}}
                                 {{--                                <a href="#"><i class="mdi mdi-facebook"></i></a>--}}
                                 {{--                                <a href="#"><i class="mdi mdi-dribbble"></i></a>--}}
-                                <a href="https://www.linkedin.com/in/matic-jagodic-5b6747190/"><i
+                                <a href="https://www.linkedin.com/in/matic-jagodic-5b6747190/" target="_blank"
+                                   rel="noopener noreferrer"><i
                                         class="mdi mdi-linkedin"></i></a>
                             </div>
                         </div>
@@ -377,7 +378,8 @@
                                 {{--                                <a href="#"><i class="mdi mdi-twitter"></i></a>--}}
                                 {{--                                <a href="#"><i class="mdi mdi-facebook"></i></a>--}}
                                 {{--                                <a href="#"><i class="mdi mdi-dribbble"></i></a>--}}
-                                <a href="https://www.linkedin.com/in/joshualeeblount/"><i class="mdi mdi-linkedin"></i></a>
+                                <a href="https://www.linkedin.com/in/joshualeeblount/" target="_blank"
+                                   rel="noopener noreferrer"><i class="mdi mdi-linkedin"></i></a>
                             </div>
                         </div>
                     </div>
@@ -422,7 +424,8 @@
                                 {{--                                <a href="#"><i class="mdi mdi-twitter"></i></a>--}}
                                 {{--                                <a href="#"><i class="mdi mdi-facebook"></i></a>--}}
                                 {{--                                <a href="#"><i class="mdi mdi-dribbble"></i></a>--}}
-                                <a href="https://www.linkedin.com/in/augustinladar/"><i
+                                <a href="https://www.linkedin.com/in/augustinladar/" target="_blank"
+                                   rel="noopener noreferrer"><i
                                         class="mdi mdi-linkedin"></i></a>
                             </div>
                         </div>
@@ -445,7 +448,8 @@
                                 {{--                                <a href="#"><i class="mdi mdi-twitter"></i></a>--}}
                                 {{--                                <a href="#"><i class="mdi mdi-facebook"></i></a>--}}
                                 {{--                                <a href="#"><i class="mdi mdi-dribbble"></i></a>--}}
-                                <a href="https://www.linkedin.com/in/henaklaric/"><i class="mdi mdi-linkedin"></i></a>
+                                <a href="https://www.linkedin.com/in/henaklaric/" target="_blank"
+                                   rel="noopener noreferrer"><i class="mdi mdi-linkedin"></i></a>
                             </div>
                         </div>
                     </div>
@@ -466,7 +470,8 @@
                                 {{--                                <a href="#"><i class="mdi mdi-twitter"></i></a>--}}
                                 {{--                                <a href="#"><i class="mdi mdi-facebook"></i></a>--}}
                                 {{--                                <a href="#"><i class="mdi mdi-dribbble"></i></a>--}}
-                                <a href="https://www.linkedin.com/in/koreaseoservice/"><i class="mdi mdi-linkedin"></i></a>
+                                <a href="https://www.linkedin.com/in/koreaseoservice/" target="_blank"
+                                   rel="noopener noreferrer"><i class="mdi mdi-linkedin"></i></a>
                             </div>
                         </div>
                     </div>
@@ -487,7 +492,8 @@
                                 {{--                                <a href="#"><i class="mdi mdi-twitter"></i></a>--}}
                                 {{--                                <a href="#"><i class="mdi mdi-facebook"></i></a>--}}
                                 {{--                                <a href="#"><i class="mdi mdi-dribbble"></i></a>--}}
-                                <a href="https://www.linkedin.com/in/stacy-ji-eun-kim-36367b54/"><i class="mdi mdi-linkedin"></i></a>
+                                <a href="https://www.linkedin.com/in/stacy-ji-eun-kim-36367b54/" target="_blank"
+                                   rel="noopener noreferrer"><i class="mdi mdi-linkedin"></i></a>
                             </div>
                         </div>
                     </div>
@@ -508,7 +514,8 @@
                                 {{--                                <a href="#"><i class="mdi mdi-twitter"></i></a>--}}
                                 {{--                                <a href="#"><i class="mdi mdi-facebook"></i></a>--}}
                                 {{--                                <a href="#"><i class="mdi mdi-dribbble"></i></a>--}}
-                                <a href="https://www.linkedin.com/in/naohikoizawa/"><i class="mdi mdi-linkedin"></i></a>
+                                <a href="https://www.linkedin.com/in/naohikoizawa/" target="_blank"
+                                   rel="noopener noreferrer"><i class="mdi mdi-linkedin"></i></a>
                             </div>
                         </div>
                     </div>
@@ -529,7 +536,8 @@
                                 {{--                                <a href="#"><i class="mdi mdi-twitter"></i></a>--}}
                                 {{--                                <a href="#"><i class="mdi mdi-facebook"></i></a>--}}
                                 {{--                                <a href="#"><i class="mdi mdi-dribbble"></i></a>--}}
-                                <a href="https://www.linkedin.com/in/markus-schäfer-090539178/"><i class="mdi mdi-linkedin"></i></a>
+                                <a href="https://www.linkedin.com/in/markus-schäfer-090539178/" target="_blank"
+                                   rel="noopener noreferrer"><i class="mdi mdi-linkedin"></i></a>
                             </div>
                         </div>
                     </div>
@@ -550,7 +558,8 @@
                                 {{--                                <a href="#"><i class="mdi mdi-twitter"></i></a>--}}
                                 {{--                                <a href="#"><i class="mdi mdi-facebook"></i></a>--}}
                                 {{--                                <a href="#"><i class="mdi mdi-dribbble"></i></a>--}}
-                                <a href="https://www.linkedin.com/in/priyadarshini-bhuyan-794377142/"><i class="mdi mdi-linkedin"></i></a>
+                                <a href="https://www.linkedin.com/in/priyadarshini-bhuyan-794377142/" target="_blank"
+                                   rel="noopener noreferrer"><i class="mdi mdi-linkedin"></i></a>
                             </div>
                         </div>
                     </div>

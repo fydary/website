@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\ValidateEmail;
 use App\Mail\TermsAndConditions;
+use App\Visits;
 use Feeds;
 use DOMXPath;
 use DOMDocument;
@@ -48,13 +49,15 @@ class AppController extends Controller
         });
     }
 
-    public function home()
+    public function home(Request $request)
     {
         $feed = $this->getMediumRSSFeed();
 
         view()->share('feed', $feed);
         view()->share('languages', $this->languages);
         view()->share('terms', 0);
+
+        Visits::create(geoip($request->ip())->toArray());
 
         return view('public.dashboard');
     }
@@ -67,8 +70,6 @@ class AppController extends Controller
         view()->share('languages', $this->languages);
         view()->share('terms', 1);
 
-        $ip = $request->ip();
-        dd(geoip($ip));
         $data = [
             'ip' => $request->ip(),
             'user_agent' => $request->headers->get('user_agent'),

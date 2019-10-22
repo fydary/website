@@ -84,6 +84,7 @@ return [
     'contact-form-validation-error' => 'Did you fill in the form properly?',
     'contact-form-something-went-wrong' => 'Something went wrong. Please check your input and try again.',
     'contact-form-success' => 'Message Submitted!',
-    'invalid-email-address' => 'Invalid email address.'
-
+    'invalid-email-address' => 'Invalid email address.',
+    'whitepaper-success' => 'Success. We are emailing you the Whitepaper.',
+    'server-error-message' => 'Something went very wrong :('
 ];

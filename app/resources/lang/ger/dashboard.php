@@ -84,5 +84,9 @@ return [
     'contact-form-validation-error' => 'Wurde das Formular richtig ausgefüllt?',
     'contact-form-something-went-wrong' => 'Etwas ist falsch gelaufen. Überprüfen Sie bitte ihre Eingaben und versuchen Sie es nochmal.',
     'contact-form-success' => 'Die Nachricht wurde eingereicht!',
-    'invalid-email-address' => 'Ungültige E-Mail-Adresse.'
+    'invalid-email-address' => 'Ungültige E-Mail-Adresse.',
+    'whitepaper-success' => 'Success. We are emailing you the Whitepaper.',
+    'server-error-message' => 'Something went very wrong :(',
+    'slider-title-1.5' => 'VORSTELLUNG DER ASSET TOKENS',
+    'slider-desc-1.5' => 'Wir machen die Tokenisierung von Assets und Investments möglich'
 ];

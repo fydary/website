@@ -84,5 +84,9 @@ return [
     'contact-form-validation-error' => 'フォームを正しく作成しましたか？',
     'contact-form-something-went-wrong' => '失敗しました。入力情報を確認しもう一度お試しください。',
     'contact-form-success' => 'メッセージは送信されました！',
-    'invalid-email-address' => '無効なメールアドレス。'
+    'invalid-email-address' => '無効なメールアドレス。',
+    'whitepaper-success' => 'Success. We are emailing you the Whitepaper.',
+    'server-error-message' => 'Something went very wrong :(',
+    'slider-title-1.5' => 'INTRODUCING ASSET TOKENS',
+    'slider-desc-1.5' => 'Enabling tokenization of assets and investments'
 ];

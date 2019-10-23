@@ -60,6 +60,7 @@ class AppController extends Controller
 
         Visits::create(geoip($request->ip())->toArray());
 
+//        return view('mail.whitepaper');
         return view('public.dashboard');
     }
 

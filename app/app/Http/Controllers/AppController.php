@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\ValidateEmail;
 use App\Mail\TermsAndConditions;
+use App\Mail\Whitepaper;
 use App\Visits;
 use Feeds;
 use DOMXPath;
@@ -122,6 +123,15 @@ class AppController extends Controller
         Newsletter::subscribe($request->input('email'), [], 'pre-sign-ups');
 
         return response()->download(storage_path("app/") . config('app.whitepaper'));
+    }
+
+    public function getWhitepaper(ValidateEmail $request)
+    {
+        Newsletter::subscribe($request->input('email'), [], 'pre-sign-ups');
+
+        Mail::to($request->input('email'))->queue(new Whitepaper());
+
+        return response()->json('ok');
     }
 
     public function getTranslations(Request $request)

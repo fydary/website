@@ -7,6 +7,7 @@
                 <li data-target="#main-slide" data-slide-to="0" class="active"></li>
                 <li data-target="#main-slide" data-slide-to="1"></li>
                 <li data-target="#main-slide" data-slide-to="2"></li>
+                <li data-target="#main-slide" data-slide-to="3"></li>
             </ol>
             <div class="carousel-inner">
                 <div class="static-carousel-image">
@@ -20,6 +21,24 @@
                             {{--                            <a href="javascript:void(0)" class="animated fadeInUp wow btn btn-common"--}}
                             {{--                               data-wow-delay=".8s"><i--}}
                             {{--                                    class="material-icons mdi mdi-lightbulb-outline"></i> @lang('dashboard.slider-button-1')--}}
+                            {{--                                <div class="ripple-container"></div>--}}
+                            {{--                            </a>--}}
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <!-- <img class="d-block w-100" src="assets/images/slider/slider-bg2.jpeg" alt="Second slide"> -->
+                        <div class="carousel-caption d-md-block">
+                            <h1 class="animated wow fadeInLeft hero-heading"
+                                data-wow-delay=".7s">@lang('dashboard.slider-title-1.5')</h1>
+                            <h5 class="animated wow fadeInRight hero-sub-heading"
+                                data-wow-delay=".9s">@lang('dashboard.slider-desc-1.5')</h5>
+                            {{--                            <a href="javascript:void(0)" class="animated fadeInUp wow btn btn-common"--}}
+                            {{--                               data-wow-delay=".6s"><i--}}
+                            {{--                                    class="material-icons mdi mdi-cart-outline"></i>@lang('dashboard.slider-button-2-1')--}}
+                            {{--                            </a>--}}
+                            {{--                            <a href="javascript:void(0)" class="animated fadeInUp wow btn btn-border"--}}
+                            {{--                               data-wow-delay=".8s"><i--}}
+                            {{--                                    class="material-icons mdi mdi-lightbulb-outline"></i> @lang('dashboard.slider-button-2-2')--}}
                             {{--                                <div class="ripple-container"></div>--}}
                             {{--                            </a>--}}
                         </div>
@@ -169,10 +188,12 @@
                             <h4 class="white whitepaper-title">
                                 @lang('dashboard.whitepaper-title')
                             </h4>
-                            <form action="/downloadWhitepaper" id="whitepaper" method="get">
+                            <form  action="javascript:;"
+                                   onsubmit="getWhitepaper(this)" id="whitepaper" method="get">
                                 <input type="email" name="email" id="whitepaper-email" placeholder="{{__('dashboard.email')}}"
-                                       class="form-control white" data-error="{{__('dashboard.invalid-email-address')}}">
-                                <small id="email-validation-message" class="white"></small>
+                                       class="form-control white" data-error="{{__('dashboard.invalid-email-address')}}" data-success="{{__('dashboard.whitepaper-success')}}">
+                                <small id="email-validation-message"></small>
+                                <small id="whitepaper-success-message" class="white"></small>
                                 @csrf
                                 <br>
                                 <a id="submit-whitepaper" class="animated4 btn btn-common btn-lg"><i

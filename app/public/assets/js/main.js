@@ -218,6 +218,31 @@ $(document).ready(function () {
     })
 });
 
+function getWhitepaper(elem) {
+
+    $.ajaxSetup({
+        headers: {
+            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+        }
+    });
+
+    $.ajax({
+        type: "POST",
+        url: "/whitepaper",
+        data: { email: $("#whitepaper-email").val() },
+        success : function(res){
+            if (res == 'ok') {
+                $("#whitepaper-success-message").html($('#whitepaper-email').data('success'))
+            } else {
+                $("#whitepaper-success-message").html('Something went wrong. Please try again later.')
+            }
+        },
+        error : function (err) {
+            $("#whitepaper-success-message").html('Something went wrong. Please try again later.')
+        }
+    });
+}
+
 function validateEmail(email) {
     var re = /\S+@\S+\.\S+/;
     return re.test(String(email).toLowerCase());

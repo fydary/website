@@ -188,10 +188,12 @@
                             <h4 class="white whitepaper-title">
                                 @lang('dashboard.whitepaper-title')
                             </h4>
-                            <form action="/downloadWhitepaper" id="whitepaper" method="get">
+                            <form  action="javascript:;"
+                                   onsubmit="getWhitepaper(this)" id="whitepaper" method="get">
                                 <input type="email" name="email" id="whitepaper-email" placeholder="{{__('dashboard.email')}}"
-                                       class="form-control white" data-error="{{__('dashboard.invalid-email-address')}}">
-                                <small id="email-validation-message" class="white"></small>
+                                       class="form-control white" data-error="{{__('dashboard.invalid-email-address')}}" data-success="{{__('dashboard.whitepaper-success')}}">
+                                <small id="email-validation-message"></small>
+                                <small id="whitepaper-success-message" class="white"></small>
                                 @csrf
                                 <br>
                                 <a id="submit-whitepaper" class="animated4 btn btn-common btn-lg"><i

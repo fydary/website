@@ -197,8 +197,8 @@
                                 @csrf
                                 <br>
                                 <a id="submit-whitepaper" class="animated4 btn btn-common btn-lg"><i
-                                        class="material-icons mdi mdi-arrow-collapse-down"></i>
-                                    @lang('dashboard.download')</a>
+                                        class="material-icons mdi mdi-email" id="submit-whitepaper-icon"></i>
+                                    @lang('dashboard.get-whitepaper')</a>
                             </form>
                         </div>
                     </div>

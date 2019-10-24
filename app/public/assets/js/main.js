@@ -232,7 +232,10 @@ function getWhitepaper(elem) {
         data: { email: $("#whitepaper-email").val() },
         success : function(res){
             if (res == 'ok') {
-                $("#whitepaper-success-message").html($('#whitepaper-email').data('success'))
+                $("#whitepaper-success-message").html($('#whitepaper-email').data('success'));
+
+                $("#submit-whitepaper-icon").removeClass('mdi-email');
+                $("#submit-whitepaper-icon").addClass('mdi-email-check');
             } else {
                 $("#whitepaper-success-message").html('Something went wrong. Please try again later.')
             }

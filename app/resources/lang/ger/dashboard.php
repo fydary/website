@@ -88,5 +88,6 @@ return [
     'whitepaper-success' => 'Success. We are emailing you the Whitepaper.',
     'server-error-message' => 'Something went very wrong :(',
     'slider-title-1.5' => 'VORSTELLUNG DER ASSET TOKENS',
-    'slider-desc-1.5' => 'Wir machen die Tokenisierung von Assets und Investments möglich'
+    'slider-desc-1.5' => 'Wir machen die Tokenisierung von Assets und Investments möglich',
+    'get-whitepaper' => 'Get Whitepaper'
 ];

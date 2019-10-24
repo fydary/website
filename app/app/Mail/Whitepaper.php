@@ -29,6 +29,7 @@ class Whitepaper extends Mailable
     public function build()
     {
         return $this->view('mail.whitepaper')
-            ->attach(storage_path("app/") . config('app.whitepaper'));
+            ->subject('The Revolution is Here – Fydary');
+//            ->attach(storage_path("app/") . config('app.whitepaper'));
     }
 }

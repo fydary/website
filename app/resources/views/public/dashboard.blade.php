@@ -455,7 +455,7 @@
                 <!-- Single Team Widget -->
                 <div class="col-md-6 col-lg-3 col-xl-3 wow animated fadeInUp" data-wow-delay=".5s">
                     <div class="single-team-widget">
-                        <img src="img/henaprofileimage.jpg" class="img-fluid" alt="">
+                        <img src="img/henaprofileimage.jpeg" class="img-fluid" alt="">
                         <div class="team-member-info">
                             {{--                            <div class="know-more">--}}
                             {{--                                <a class="btn btn-round btn-fab btn-xs" href="javascript:void(0)"><i--}}

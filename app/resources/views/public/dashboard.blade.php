@@ -370,7 +370,7 @@
                             {{--                                </a>--}}
                             {{--                            </div>--}}
                             <h2 class="subtitle">Matic Jagodic</h2>
-                            <p>Chief Operating Officer</p>
+                            <p>CO Founder and Chief Operating Officer</p>
                             <div class="social-profiles">
                                 {{--                                <a href="#"><i class="mdi mdi-twitter"></i></a>--}}
                                 {{--                                <a href="#"><i class="mdi mdi-facebook"></i></a>--}}

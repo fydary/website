@@ -10,6 +10,8 @@
     <meta name="csrf-token" content="{{csrf_token()}}">
     <title>Fydary - Change Everything</title>
 
+    <meta property="og:image" content="assets/images/logo.png" />
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!-- Meterial Icon CSS -->

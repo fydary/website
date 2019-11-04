@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html prefix="og: http://ogp.me/ns#" lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png"/>
 
@@ -11,9 +11,10 @@
 
     <title>Fydary - Change Everything</title>
 
-    <meta property="og:title" content="Fydaty - Change Everything"/>
+    <meta property="og:title" content="Fydary - Change Everything"/>
     <meta property="og:type" content="website"/>
     <meta property="og:image" content="assets/images/logo.png"/>
+    <meta property="og:url" content="{{config('app.url')}}" />
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">

@@ -11,9 +11,14 @@
 
     <title>Fydary - Change Everything</title>
 
-    <meta property="og:title" content="Fydary - Change Everything"/>
+    <meta name="robots" content="all">
+    <meta name="keywords" content="fydary, fydary.io">
+    <meta name="description" content="Change Everything">
+
+    <meta property="og:title" content="Fydary"/>
+    <meta property="og:description" content="Change Everything"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:image" content="assets/images/logo.png"/>
+    <meta property="og:image" content="{{config('app.url')}}/assets/images/logo.png"/>
     <meta property="og:url" content="{{config('app.url')}}" />
 
     <!-- Bootstrap CSS -->

@@ -1,16 +1,19 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html prefix="og: http://ogp.me/ns#" lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png"/>
-    <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png"/>
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <meta name="csrf-token" content="{{csrf_token()}}">
+
     <title>Fydary - Change Everything</title>
 
-    <meta property="og:image" content="assets/images/logo.png" />
+    <meta property="og:title" content="Fydaty - Change Everything"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="assets/images/logo.png"/>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">

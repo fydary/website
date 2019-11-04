@@ -370,7 +370,7 @@
                             {{--                                </a>--}}
                             {{--                            </div>--}}
                             <h2 class="subtitle">Matic Jagodic</h2>
-                            <p>Co Founder and Project Manager</p>
+                            <p>Chief Operating Officer</p>
                             <div class="social-profiles">
                                 {{--                                <a href="#"><i class="mdi mdi-twitter"></i></a>--}}
                                 {{--                                <a href="#"><i class="mdi mdi-facebook"></i></a>--}}
@@ -440,7 +440,7 @@
                             {{--                                </a>--}}
                             {{--                            </div>--}}
                             <h2 class="subtitle">Augustin Ladar</h2>
-                            <p>Business Development Executive</p>
+                            <p>Head of Business Development</p>
                             <div class="social-profiles">
                                 {{--                                <a href="#"><i class="mdi mdi-twitter"></i></a>--}}
                                 {{--                                <a href="#"><i class="mdi mdi-facebook"></i></a>--}}

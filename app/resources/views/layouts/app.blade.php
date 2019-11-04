@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html prefix="og: http://ogp.me/ns#" lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png"/>
 

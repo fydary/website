@@ -11,6 +11,7 @@
     <title>Fydary - Change Everything</title>
 
     <meta property="og:title" content="Fydaty - Change Everything"/>
+    <meta property="og:type" content="website"/>
     <meta property="og:image" content="assets/images/logo.png"/>
 
     <!-- Bootstrap CSS -->

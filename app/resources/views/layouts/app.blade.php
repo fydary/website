@@ -12,13 +12,13 @@
     <title>Fydary - Change Everything</title>
 
     <meta name="robots" content="all">
-    <meta name="keywords" content="fydary, fydary.io">
+    <meta name="keywords" content="fydary, erc, Ethereum, Bitcoin, tech, technology, startup, agritech, hedge fund, charity, energy, solar, wind, hydro">
     <meta name="description" content="Change Everything">
 
     <meta property="og:title" content="Fydary"/>
     <meta property="og:description" content="Change Everything"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:image" content="{{config('app.url')}}/assets/images/logo.png"/>
+    <meta property="og:image" content="{{config('app.url')}}/assets/images/logo.jpg"/>
     <meta property="og:url" content="{{config('app.url')}}" />
 
     <!-- Bootstrap CSS -->

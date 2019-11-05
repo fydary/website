@@ -11,6 +11,16 @@
 
     <title>Fydary - Change Everything</title>
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-147547243-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-147547243-1');
+    </script>
+
     <meta name="robots" content="all">
     <meta name="keywords" content="fydary, erc, Ethereum, Bitcoin, tech, technology, startup, agritech, hedge fund, charity, energy, solar, wind, hydro">
     <meta name="description" content="Change Everything">

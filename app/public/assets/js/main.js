@@ -246,6 +246,24 @@ $(document).ready(function () {
 function getWhitepaper() {
     let language = $("#wp-language").val();
 
+    // $.ajax({
+    //     type: "POST",
+    //     url: "/whitepaper",
+    //     data: { email: $("#whitepaper-email").val() },
+    //     success : function(res){
+    //         if (res == 'ok') {
+    //             $("#whitepaper-success-message").html($('#whitepaper-email').data('success'));
+    //
+    //             $("#submit-whitepaper-icon").removeClass('mdi-email');
+    //             $("#submit-whitepaper-icon").addClass('mdi-email-check');
+    //         } else {
+    //             $("#whitepaper-success-message").html('Something went wrong. Please try again later.')
+    //         }
+    //     },
+    //     error : function (err) {
+    //         $("#whitepaper-success-message").html('Something went wrong. Please try again later.')
+    //     }
+    // });
     $("body").append('<a href="/getWhitepaper?language=' + language + '" id="wp-download"></a>');
     document.getElementById('wp-download').click();
     $("#wp-download").detach();

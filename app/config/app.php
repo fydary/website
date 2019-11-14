@@ -123,7 +123,16 @@ return [
 
     'cipher' => 'AES-256-CBC',
 
-    'whitepaper' => env('WHITEPAPER_FILENAME'),
+    'whitepaper' => [
+        'en' => env('WHITEPAPER_FILENAME'),
+        'ger' => env('DE_WHITEPAPER_FILENAME'),
+        'jap' => env('JP_WHITEPAPER_FILENAME'),
+        'kor' => env('KR_WHITEPAPER_FILENAME'),
+    ],
+
+    'onepager' => env('ONEPAGER_FILENAME'),
+
+
 
     /*
     |--------------------------------------------------------------------------

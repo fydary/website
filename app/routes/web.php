@@ -14,8 +14,8 @@
 Route::get('/', 'AppController@home');
 Route::get('/terms-and-conditions', 'AppController@termsAndConditions');
 Route::post('/contact', 'ContactController@postContact');
-Route::get('/downloadWhitepaper', 'AppController@downloadWhitepaper');
-Route::post('/whitepaper', 'AppController@getWhitepaper');
+Route::get('/getWhitepaper', 'AppController@getWhitepaper');
+Route::get('/getOnePager', 'AppController@getOnePager');
 Route::get('/changeLanguage', 'AppController@changeLanguage');
 Route::get('/getTranslations', 'AppController@getTranslations');
 Route::post('/changeMode', 'AppController@changeMode');

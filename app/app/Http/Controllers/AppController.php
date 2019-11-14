@@ -9,6 +9,7 @@ use App\Visits;
 use Feeds;
 use DOMXPath;
 use DOMDocument;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Mail;
 use Newsletter;
 use Illuminate\Http\Request;
@@ -118,21 +119,25 @@ class AppController extends Controller
 
     }
 
-    public function downloadWhitepaper(ValidateEmail $request)
+    public function getWhitepaper(Request $request)
     {
-        Newsletter::subscribe($request->input('email'), [], 'pre-sign-ups');
-
-        return response()->download(storage_path("app/") . config('app.whitepaper'));
+//        Newsletter::subscribe($request->input('email'), [], 'pre-sign-ups');
+        return response()->download(storage_path("app/") . config('app.whitepaper' . $request['language'] ?: 'en'));
     }
 
-    public function getWhitepaper(ValidateEmail $request)
+    public function getOnePager(Request $request)
     {
-        Newsletter::subscribe($request->input('email'), [], 'pre-sign-ups');
-
-        Mail::to($request->input('email'))->queue(new Whitepaper());
-
-        return response()->json('ok');
+        return response()->download(storage_path("app/") . config('app.onepager'));
     }
+
+//    public function getWhitepaper(ValidateEmail $request)
+//    {
+//        Newsletter::subscribe($request->input('email'), [], 'pre-sign-ups');
+//
+//        Mail::to($request->input('email'))->queue(new Whitepaper());
+//
+//        return response()->json('ok');
+//    }
 
     public function getTranslations(Request $request)
     {

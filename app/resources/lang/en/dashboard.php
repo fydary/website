@@ -2,6 +2,7 @@
 
 return [
     'whitepaper' => 'Whitepaper',
+    'onepager' => 'Onepager',
     'home' => 'Home',
     'about' => 'About',
     'industry' => 'Industry',
@@ -79,7 +80,7 @@ return [
     'why-choose-us' => 'Why Choose Us',
     'footer-copyright' => '2019 Fydary Incorporated, All right reserved.',
     'dark-mode' => 'Dark mode',
-    'whitepaper-title' => 'GET EXCLUSIVE ACCESS TO FYDARY WHITEPAPER <sup>BETA</sup>',
+    'whitepaper-title' => 'DOWNLOAD FYDARY WHITEPAPER',
     'download' => 'Download',
     'contact-form-validation-error' => 'Did you fill in the form properly?',
     'contact-form-something-went-wrong' => 'Something went wrong. Please check your input and try again.',

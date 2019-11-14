@@ -246,6 +246,8 @@ $(document).ready(function () {
 function getWhitepaper() {
     let language = $("#wp-language").val();
 
+    if (!language || language == '')
+        language = 'en';
     // $.ajax({
     //     type: "POST",
     //     url: "/whitepaper",

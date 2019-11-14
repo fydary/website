@@ -121,8 +121,11 @@ class AppController extends Controller
 
     public function getWhitepaper(Request $request)
     {
-//        Newsletter::subscribe($request->input('email'), [], 'pre-sign-ups');
-        return response()->download(storage_path("app/") . config('app.whitepaper' . $request['language'] ?: 'en'));
+        if ($request->filled('language'))
+            $language = $request['language'];
+        else
+            $language = 'en';
+        return response()->download(storage_path("app/") . config('app.whitepaper.' . $language));
     }
 
     public function getOnePager(Request $request)

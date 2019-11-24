@@ -397,6 +397,28 @@
                 <!-- Single Team Widget -->
                 <div class="col-md-6 col-lg-3 col-xl-3 wow animated fadeInUp" data-wow-delay=".3s">
                     <div class="single-team-widget">
+                        <img src="img/peterprofileimage.jpg" class="img-fluid" alt="">
+                        <div class="team-member-info">
+                            {{--                            <div class="know-more">--}}
+                            {{--                                <a class="btn btn-round btn-fab btn-xs" href="javascript:void(0)"><i--}}
+                            {{--                                        class="material-icons mdi mdi-arrow-right"></i>--}}
+                            {{--                                    <div class="ripple-container"></div>--}}
+                            {{--                                </a>--}}
+                            {{--                            </div>--}}
+                            <h2 class="subtitle">Peter Kodermac</h2>
+                            <p>Founder & Chief Legal Officer</p>
+                            <div class="social-profiles">
+                                {{--                                <a href="#"><i class="mdi mdi-twitter"></i></a>--}}
+                                {{--                                <a href="#"><i class="mdi mdi-facebook"></i></a>--}}
+                                {{--                                <a href="#"><i class="mdi mdi-dribbble"></i></a>--}}
+                                <a href="#"><i class="mdi mdi-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Single Team Widget -->
+                <div class="col-md-6 col-lg-3 col-xl-3 wow animated fadeInUp" data-wow-delay=".4s">
+                    <div class="single-team-widget">
                         <img src="img/maticprofileimage.jpg" class="img-fluid" alt="">
                         <div class="team-member-info">
                             {{--                            <div class="know-more">--}}
@@ -406,7 +428,7 @@
                             {{--                                </a>--}}
                             {{--                            </div>--}}
                             <h2 class="subtitle">Matic Jagodic</h2>
-                            <p>CO Founder and Chief Operating Officer</p>
+                            <p>Managing Partner</p>
                             <div class="social-profiles">
                                 {{--                                <a href="#"><i class="mdi mdi-twitter"></i></a>--}}
                                 {{--                                <a href="#"><i class="mdi mdi-facebook"></i></a>--}}
@@ -419,51 +441,28 @@
                     </div>
                 </div>
                 <!-- Single Team Widget -->
-                <div class="col-md-6 col-lg-3 col-xl-3 wow animated fadeInUp" data-wow-delay=".4s">
-                    <div class="single-team-widget">
-                        <img src="img/Joshua.jpg" class="img-fluid" alt="">
-                        <div class="team-member-info">
-                            {{--                            <div class="know-more">--}}
-                            {{--                                <a class="btn btn-round btn-fab btn-xs" href="javascript:void(0)"><i--}}
-                            {{--                                        class="material-icons mdi mdi-arrow-right"></i>--}}
-                            {{--                                    <div class="ripple-container"></div>--}}
-                            {{--                                </a>--}}
-                            {{--                            </div>--}}
-                            <h2 class="subtitle">Joshua Blount</h2>
-                            <p>Co Founder and Chief Marketing Officer</p>
-                            <div class="social-profiles">
-                                {{--                                <a href="#"><i class="mdi mdi-twitter"></i></a>--}}
-                                {{--                                <a href="#"><i class="mdi mdi-facebook"></i></a>--}}
-                                {{--                                <a href="#"><i class="mdi mdi-dribbble"></i></a>--}}
-                                <a href="https://www.linkedin.com/in/joshualeeblount/" target="_blank"
-                                   rel="noopener noreferrer"><i class="mdi mdi-linkedin"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single Team Widget -->
-                <div class="col-md-6 col-lg-3 col-xl-3 wow animated fadeInUp" data-wow-delay=".6s">
-                    <div class="single-team-widget">
-                        <img src="img/peterprofileimage.jpg" class="img-fluid" alt="">
-                        <div class="team-member-info">
-                            {{--                            <div class="know-more">--}}
-                            {{--                                <a class="btn btn-round btn-fab btn-xs" href="javascript:void(0)"><i--}}
-                            {{--                                        class="material-icons mdi mdi-arrow-right"></i>--}}
-                            {{--                                    <div class="ripple-container"></div>--}}
-                            {{--                                </a>--}}
-                            {{--                            </div>--}}
-                            <h2 class="subtitle">Peter Kodermac</h2>
-                            <p>Co Founder & Chief Legal Officer</p>
-                            <div class="social-profiles">
-                                {{--                                <a href="#"><i class="mdi mdi-twitter"></i></a>--}}
-                                {{--                                <a href="#"><i class="mdi mdi-facebook"></i></a>--}}
-                                {{--                                <a href="#"><i class="mdi mdi-dribbble"></i></a>--}}
-                                <a href="#"><i class="mdi mdi-linkedin"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+{{--                <div class="col-md-6 col-lg-3 col-xl-3 wow animated fadeInUp" data-wow-delay=".4s">--}}
+{{--                    <div class="single-team-widget">--}}
+{{--                        <img src="img/Joshua.jpg" class="img-fluid" alt="">--}}
+{{--                        <div class="team-member-info">--}}
+{{--                            --}}{{--                            <div class="know-more">--}}
+{{--                            --}}{{--                                <a class="btn btn-round btn-fab btn-xs" href="javascript:void(0)"><i--}}
+{{--                            --}}{{--                                        class="material-icons mdi mdi-arrow-right"></i>--}}
+{{--                            --}}{{--                                    <div class="ripple-container"></div>--}}
+{{--                            --}}{{--                                </a>--}}
+{{--                            --}}{{--                            </div>--}}
+{{--                            <h2 class="subtitle">Joshua Blount</h2>--}}
+{{--                            <p>Co Founder and Chief Marketing Officer</p>--}}
+{{--                            <div class="social-profiles">--}}
+{{--                                --}}{{--                                <a href="#"><i class="mdi mdi-twitter"></i></a>--}}
+{{--                                --}}{{--                                <a href="#"><i class="mdi mdi-facebook"></i></a>--}}
+{{--                                --}}{{--                                <a href="#"><i class="mdi mdi-dribbble"></i></a>--}}
+{{--                                <a href="https://www.linkedin.com/in/joshualeeblount/" target="_blank"--}}
+{{--                                   rel="noopener noreferrer"><i class="mdi mdi-linkedin"></i></a>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
                 <!-- Single Team Widget -->
                 <div class="col-md-6 col-lg-3 col-xl-3 wow animated fadeInUp" data-wow-delay=".5s">
                     <div class="single-team-widget">
@@ -489,7 +488,7 @@
                     </div>
                 </div>
                 <!-- Single Team Widget -->
-                <div class="col-md-6 col-lg-3 col-xl-3 wow animated fadeInUp" data-wow-delay=".5s">
+                <div class="col-md-6 col-lg-3 col-xl-3 wow animated fadeInUp" data-wow-delay=".6s">
                     <div class="single-team-widget">
                         <img src="img/henaprofileimage.jpeg" class="img-fluid" alt="">
                         <div class="team-member-info">
@@ -511,7 +510,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3 col-xl-3 wow animated fadeInUp" data-wow-delay=".5s">
+                <div class="col-md-6 col-lg-3 col-xl-3 wow animated fadeInUp" data-wow-delay=".7s">
                     <div class="single-team-widget">
                         <img src="img/Jenny.jpg" class="img-fluid" alt="">
                         <div class="team-member-info">
@@ -533,7 +532,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3 col-xl-3 wow animated fadeInUp" data-wow-delay=".5s">
+                <div class="col-md-6 col-lg-3 col-xl-3 wow animated fadeInUp" data-wow-delay=".8s">
                     <div class="single-team-widget">
                         <img src="img/stacyprofileimage.jpg" class="img-fluid" alt="">
                         <div class="team-member-info">
@@ -555,7 +554,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3 col-xl-3 wow animated fadeInUp" data-wow-delay=".5s">
+                <div class="col-md-6 col-lg-3 col-xl-3 wow animated fadeInUp" data-wow-delay=".9s">
                     <div class="single-team-widget">
                         <img src="img/naoprofileimage.jpg" class="img-fluid" alt="">
                         <div class="team-member-info">
@@ -577,7 +576,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3 col-xl-3 wow animated fadeInUp" data-wow-delay=".5s">
+                <div class="col-md-6 col-lg-3 col-xl-3 wow animated fadeInUp" data-wow-delay=".9s">
                     <div class="single-team-widget">
                         <img src="img/mosthandsomeguy.jpg" class="img-fluid" alt="" title="Most Handsome Guy">
                         <div class="team-member-info">
@@ -599,7 +598,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-3 col-xl-3 wow animated fadeInUp" data-wow-delay=".5s">
+                <div class="col-md-6 col-lg-3 col-xl-3 wow animated fadeInUp" data-wow-delay=".9s">
                     <div class="single-team-widget">
                         <img src="img/Priya.jpeg" class="img-fluid" alt="">
                         <div class="team-member-info">

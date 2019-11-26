@@ -77,8 +77,9 @@ return [
     'privacy-policy' => '개인 정보 보호 정책',
     'company-profile' => '회사 프로필',
     'why-choose-us' => '우리를 선택하는 이유 ',
-    'footer-copyright' => '2019 Fydary Incorporated, All right reserved.',
-    'dark-mode' => '다크모드',
+    'footer-copyright' => 'Clavis Prosperitatis SE <br>
+    Trzaska cesta 27A Logatec 1370 Slovenia EU <br>
+    2019 All right reserved.',    'dark-mode' => '다크모드',
     'whitepaper-title' => 'FYDARY 백서 베타 버전 확인하기',
     'download' => '다운로드',
     'contact-form-validation-error' => '양식을 모두 올바르게 기입하였습니까?',

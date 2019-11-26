@@ -78,7 +78,9 @@ return [
     'privacy-policy' => 'Privacy Policy',
     'company-profile' => 'Company Profile',
     'why-choose-us' => 'Why Choose Us',
-    'footer-copyright' => '2019 Fydary Incorporated, All right reserved.',
+    'footer-copyright' => 'Clavis Prosperitatis SE <br>
+    Trzaska cesta 27A Logatec 1370 Slovenia EU <br>
+    2019 All right reserved.',
     'dark-mode' => 'Dark mode',
     'whitepaper-title' => 'DOWNLOAD FYDARY WHITEPAPER',
     'download' => 'Download',

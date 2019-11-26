@@ -77,8 +77,9 @@ return [
     'privacy-policy' => '個人情報保護方針',
     'company-profile' => '会社概要',
     'why-choose-us' => 'なぜフィダリー？',
-    'footer-copyright' => '2019 Fydary Incorporated, All right reserved.',
-    'dark-mode' => 'ダークモード',
+    'footer-copyright' => 'Clavis Prosperitatis SE <br>
+    Trzaska cesta 27A Logatec 1370 Slovenia EU <br>
+    2019 All right reserved.',    'dark-mode' => 'ダークモード',
     'whitepaper-title' => 'フィダリーのホワイトペーパーベータ版へのアクセス権を取得',
     'download' => 'ダウンロード',
     'contact-form-validation-error' => 'フォームを正しく作成しましたか？',

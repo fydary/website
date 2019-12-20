@@ -72,14 +72,14 @@ class AppController extends Controller
         view()->share('languages', $this->languages);
         view()->share('terms', 1);
 
-        $data = [
-            'ip' => $request->ip(),
-            'user_agent' => $request->headers->get('user_agent'),
-            'dark_mode' => session('dark_mode'),
-            'language' => session('lang')
-        ];
+//        $data = [
+//            'ip' => $request->ip(),
+//            'user_agent' => $request->headers->get('user_agent'),
+//            'dark_mode' => session('dark_mode'),
+//            'language' => session('lang')
+//        ];
 
-        Mail::to(config('mail.contact_email_to'))->send(new TermsAndConditions($data));
+//        Mail::to(config('mail.contact_email_to'))->send(new TermsAndConditions($data));
 
         return view('public.terms');
     }

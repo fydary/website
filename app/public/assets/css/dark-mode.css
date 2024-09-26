@@ -1,0 +1,49 @@
+body,
+section,
+.navbar,
+.dropdown-item,
+.Material-tab,
+.nav,
+.slicknav_menu ul,
+.slicknav_nav ul,
+/*.nav-link,*/
+.slicknav_nav li,
+label,
+.tab-content,
+.team-member-info,
+.slicknav_arrow {
+    background-color: #1B0D3C !important;
+}
+
+body,
+section,
+.navbar,
+.Material-tab,
+.nav,
+.nav-link,
+.Material-tab ul.nav.nav-tabs .nav-item .nav-link,
+label,
+h1,
+h3,
+.dropdown-item,
+.tab-content,
+.team-member-info,
+p,
+.timer,
+.slicknav_parent,
+.language-selection,
+.slicknav_arrow{
+    color: #FFFFFF !important;
+}
+
+#myTab,
+.slicknav_arrow,
+.tab-content,
+.whitepaper,
+.single-team-widget{
+    box-shadow: 0 1px 4px rgba(255,255,255, 0.3) !important;
+}
+
+.single-team-widget:hover {
+    box-shadow: 0px 2px 10px 2px rgba(255,255,255, 0.3) !important;;
+}
